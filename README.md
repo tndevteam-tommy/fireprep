@@ -7,7 +7,7 @@
 | Donor | What FirePrep takes from it |
 | --- | --- |
 | **CyberDuke** | Guard AI, stealth and detection, the humanoid character rig, character animation, hands and models |
-| **Firestarter** | Natural environments, flora and planet life, weather and seasons, lighting, atmosphere, texture realism |
+| **Firestarter** | Natural environments, flora and plant life, weather and seasons, lighting, atmosphere, texture realism |
 | **Hardcore** | Collision-accurate parkour, ledge and edge climbing, climbing animation, multiplayer networking |
 | **Unprepared** | **The base game** - world, NPC routines, justice system, economy, quests, saves, tests, tooling |
 
