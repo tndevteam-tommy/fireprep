@@ -1,0 +1,4 @@
+# Runtime dependencies (pinned to tested minimums; see pyproject.toml for the source of truth)
+pygame>=2.5
+PyOpenGL>=3.1.7
+numpy>=1.24

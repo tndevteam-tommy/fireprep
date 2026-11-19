@@ -1,0 +1,10302 @@
+{
+ "captures": {
+  "2": {
+   "confirmation": null,
+   "containers": [
+    {
+     "inventory": [
+      [
+       "candlestick",
+       1
+      ],
+      [
+       "wine",
+       3
+      ],
+      [
+       "thread",
+       5
+      ]
+     ],
+     "locked": false,
+     "name": "shop_shelf_west"
+    },
+    {
+     "inventory": [
+      [
+       "lantern",
+       1
+      ],
+      [
+       "honey",
+       2
+      ],
+      [
+       "plate",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "shop_shelf_east"
+    },
+    {
+     "inventory": [
+      [
+       "iron_dagger",
+       1
+      ],
+      [
+       "short_sword",
+       1
+      ],
+      [
+       "leather_cap",
+       1
+      ],
+      [
+       "iron_helm",
+       1
+      ],
+      [
+       "chain_shirt",
+       1
+      ],
+      [
+       "leather_jerkin",
+       1
+      ],
+      [
+       "iron_ore",
+       4
+      ],
+      [
+       "mallet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "smithy_rack"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       13
+      ]
+     ],
+     "locked": false,
+     "name": "smith_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       45
+      ],
+      [
+       "smith_apron",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "smith_chest"
+    },
+    {
+     "inventory": [
+      [
+       "linen_shirt",
+       1
+      ],
+      [
+       "white_cloak",
+       1
+      ],
+      [
+       "red_cap",
+       1
+      ],
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "soft_slippers",
+       1
+      ],
+      [
+       "needles",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "tailor_rack"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "tailor_table_food"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       12
+      ],
+      [
+       "bread",
+       10
+      ],
+      [
+       "ale",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "inn_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_1"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_2"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_3"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_4"
+    },
+    {
+     "inventory": [
+      [
+       "ration",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "gate_lodge_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       90
+      ],
+      [
+       "ivory_dice",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "barnaby_takings"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       26
+      ],
+      [
+       "fenwick_locket",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "fenwick_hearthstone"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       130
+      ],
+      [
+       "hilde_recipes",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "hilde_ale_cask"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_5"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "barnaby_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       13
+      ]
+     ],
+     "locked": false,
+     "name": "tamsin_table"
+    },
+    {
+     "inventory": [
+      [
+       "dried_meat",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "jae_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "fenwick_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       22
+      ]
+     ],
+     "locked": false,
+     "name": "couple_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "pell_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       60
+      ],
+      [
+       "ledger",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "barnaby_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       12
+      ],
+      [
+       "wedding_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "tamsin_chest"
+    },
+    {
+     "inventory": [
+      [
+       "ration",
+       16
+      ]
+     ],
+     "locked": false,
+     "name": "guard_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       75
+      ],
+      [
+       "steel_sword",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "guard_chest"
+    },
+    {
+     "inventory": [],
+     "locked": true,
+     "name": "jail_storage"
+    },
+    {
+     "inventory": [
+      [
+       "grain",
+       3
+      ],
+      [
+       "rusty_lantern",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "granary_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "roast_pheasant",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_dining_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ],
+      [
+       "cheese",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "honey",
+       3
+      ],
+      [
+       "ham",
+       1
+      ],
+      [
+       "spices",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_pantry"
+    },
+    {
+     "inventory": [
+      [
+       "silver_teapot",
+       1
+      ],
+      [
+       "silver_cutlery",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_silver_cabinet"
+    },
+    {
+     "inventory": [
+      [
+       "crystal_decanter",
+       1
+      ],
+      [
+       "wine",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_sideboard"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       9
+      ],
+      [
+       "apron",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_servant_chest"
+    },
+    {
+     "inventory": [
+      [
+       "perfume",
+       1
+      ],
+      [
+       "silver_comb",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_dressing_table"
+    },
+    {
+     "inventory": [
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "fine_shirt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_clothes_press"
+    },
+    {
+     "inventory": [
+      [
+       "fingers_of_the_magpie",
+       1
+      ],
+      [
+       "coins",
+       220
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "pearl_choker",
+       1
+      ],
+      [
+       "velvet_cloak",
+       1
+      ],
+      [
+       "gilt_circlet",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_wardrobe"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       140
+      ],
+      [
+       "silver_plate",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_coffer"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       38
+      ],
+      [
+       "love_letter_hobb",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_servant_stash"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "roast_pheasant",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "vane_dining_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ],
+      [
+       "cheese",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "vane_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "honey",
+       3
+      ],
+      [
+       "ham",
+       1
+      ],
+      [
+       "spices",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_pantry"
+    },
+    {
+     "inventory": [
+      [
+       "silver_teapot",
+       1
+      ],
+      [
+       "silver_cutlery",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_silver_cabinet"
+    },
+    {
+     "inventory": [
+      [
+       "crystal_decanter",
+       1
+      ],
+      [
+       "wine",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "vane_sideboard"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       9
+      ],
+      [
+       "apron",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_servant_chest"
+    },
+    {
+     "inventory": [
+      [
+       "gold_quill",
+       1
+      ],
+      [
+       "wax_seal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_writing_desk"
+    },
+    {
+     "inventory": [
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "fine_shirt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_clothes_press"
+    },
+    {
+     "inventory": [
+      [
+       "black_cloak",
+       1
+      ],
+      [
+       "ruby_necklace",
+       1
+      ],
+      [
+       "coins",
+       260
+      ]
+     ],
+     "locked": true,
+     "name": "vane_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "ravenfeather_cloak",
+       1
+      ],
+      [
+       "feathered_hat",
+       1
+      ],
+      [
+       "signet_ring_chain",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_wardrobe"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       180
+      ],
+      [
+       "silver_candelabra",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_coffer"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       175
+      ],
+      [
+       "butlers_ledger",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_servant_stash"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       18
+      ]
+     ],
+     "locked": true,
+     "name": "chapel_poor_box"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ],
+      [
+       "herbs",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "maude_table"
+    },
+    {
+     "inventory": [
+      [
+       "wendel_reliquary",
+       1
+      ],
+      [
+       "coins",
+       40
+      ]
+     ],
+     "locked": true,
+     "name": "chapel_reliquary"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       6
+      ],
+      [
+       "old_helm",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       160
+      ],
+      [
+       "service_medal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_rain_barrel"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "nessa_table"
+    },
+    {
+     "inventory": [
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "silver_buttons",
+       1
+      ],
+      [
+       "perfumed_letter",
+       1
+      ],
+      [
+       "coins",
+       14
+      ]
+     ],
+     "locked": false,
+     "name": "nessa_basket"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ],
+      [
+       "meat_pie",
+       4
+      ],
+      [
+       "sweet_roll",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "bakery_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "wynn_table"
+    },
+    {
+     "inventory": [
+      [
+       "flour",
+       3
+      ],
+      [
+       "coins",
+       95
+      ],
+      [
+       "mothers_brooch",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bakery_flour"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       7
+      ],
+      [
+       "adze",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       210
+      ],
+      [
+       "silver_hoop",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_rain_barrel"
+    },
+    {
+     "inventory": [
+      [
+       "apple_1",
+       6
+      ],
+      [
+       "bread",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "hobb_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       44
+      ],
+      [
+       "ribbon",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "hobb_stash"
+    },
+    {
+     "inventory": [
+      [
+       "healing_salve",
+       4
+      ],
+      [
+       "sleeping_draught",
+       2
+      ],
+      [
+       "lavender",
+       6
+      ],
+      [
+       "valerian",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       120
+      ],
+      [
+       "poison_book",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_jar"
+    },
+    {
+     "inventory": [
+      [
+       "iron_lockpick",
+       8
+      ],
+      [
+       "fine_lockpick",
+       4
+      ],
+      [
+       "padlock",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ludo_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "ludo_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       150
+      ],
+      [
+       "lockpick_pack",
+       3
+      ],
+      [
+       "wax_kit",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ludo_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "tithe_roll",
+       1
+      ],
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "pike_desk"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       240
+      ],
+      [
+       "tithe_seal",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "pike_tithe_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       130
+      ],
+      [
+       "second_ledger",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "pike_floorboard"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "bread",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "dunstan_table"
+    },
+    {
+     "inventory": [
+      [
+       "gold_locket",
+       1
+      ],
+      [
+       "letters_ashgrove",
+       1
+      ],
+      [
+       "coins",
+       22
+      ]
+     ],
+     "locked": true,
+     "name": "dunstan_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "mott_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       85
+      ],
+      [
+       "fine_leather",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "mott_lime_vat"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "jeb_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       58
+      ],
+      [
+       "silver_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "jeb_brick"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "odo_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       18
+      ],
+      [
+       "wool_cloak",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "odo_chest"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       4
+      ],
+      [
+       "bread",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "marta_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       10
+      ],
+      [
+       "silk_gloves",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "marta_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       8
+      ],
+      [
+       "hatchet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       35
+      ],
+      [
+       "silver_brooch",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_stash"
+    },
+    {
+     "inventory": [
+      [
+       "venison",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "hunter_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       25
+      ],
+      [
+       "shadow_boots",
+       1
+      ],
+      [
+       "pelt",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "hunter_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       9
+      ],
+      [
+       "venison",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "hrolf_table"
+    },
+    {
+     "inventory": [
+      [
+       "steel_sword",
+       1
+      ],
+      [
+       "hunting_knife",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ],
+      [
+       "iron_ore",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "hrolf_rack"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       70
+      ],
+      [
+       "fathers_hammer",
+       1
+      ],
+      [
+       "letter_gareth",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "hrolf_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       18
+      ],
+      [
+       "ale",
+       10
+      ],
+      [
+       "dice",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       120
+      ],
+      [
+       "black_hood",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "deep_spoils"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       48
+      ],
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "pocket_watch",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ned_chest"
+    },
+    {
+     "inventory": [
+      [
+       "amulet_open_door",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_pedestal"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       500
+      ],
+      [
+       "black_shoes",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "deep_vault_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       37
+      ],
+      [
+       "iron_lockpick",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "deep_vault_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       64
+      ],
+      [
+       "silver_ore",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "deep_nook_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       90
+      ],
+      [
+       "gold_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_nook_stash"
+    },
+    {
+     "inventory": [
+      [
+       "silk_bolt",
+       1
+      ],
+      [
+       "silver_plate",
+       1
+      ],
+      [
+       "coins",
+       34
+      ]
+     ],
+     "locked": false,
+     "name": "deep_cubby_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       52
+      ],
+      [
+       "fine_arrows",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "deep_cubby_cache"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       41
+      ],
+      [
+       "lucky_tooth",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_barracks_stash"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       23
+      ],
+      [
+       "brandy",
+       2
+      ],
+      [
+       "cards",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       150
+      ],
+      [
+       "shadowsilk_hood",
+       1
+      ],
+      [
+       "black_tunic",
+       1
+      ],
+      [
+       "brandy",
+       4
+      ]
+     ],
+     "locked": true,
+     "name": "smugglers_stash"
+    },
+    {
+     "inventory": [
+      [
+       "pepper",
+       2
+      ],
+      [
+       "silk_bolt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "smuggler_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       52
+      ],
+      [
+       "silver_locket",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_nook_bones"
+    },
+    {
+     "inventory": [
+      [
+       "rum",
+       3
+      ],
+      [
+       "coins",
+       45
+      ]
+     ],
+     "locked": false,
+     "name": "cove_rum_keg"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       110
+      ],
+      [
+       "sea_chart",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_kell_stash"
+    },
+    {
+     "inventory": [
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "candle_stub",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "mine_tool_crate"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       46
+      ],
+      [
+       "iron_ore",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "mine_harl_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       140
+      ],
+      [
+       "pit_boss_seal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "mine_wage_box"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       21
+      ]
+     ],
+     "locked": false,
+     "name": "mine_sump_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       33
+      ],
+      [
+       "candle_stub",
+       4
+      ]
+     ],
+     "locked": false,
+     "name": "mine_niche_stash"
+    },
+    {
+     "inventory": [
+      [
+       "roast_pheasant",
+       9
+      ],
+      [
+       "wine",
+       3
+      ],
+      [
+       "bread",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "keep_table"
+    },
+    {
+     "inventory": [
+      [
+       "nightweave_cloak",
+       1
+      ],
+      [
+       "duskwalker_boots",
+       1
+      ],
+      [
+       "coins",
+       400
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       260
+      ],
+      [
+       "tithe_ledger",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_tithe"
+    },
+    {
+     "inventory": [
+      [
+       "steel_sword",
+       1
+      ],
+      [
+       "plate_cuirass",
+       1
+      ],
+      [
+       "coins",
+       60
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_armoury"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       23
+      ],
+      [
+       "prayer_beads",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "shrine_offerings"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "shrine_pilgrim"
+    }
+   ],
+   "doors": [
+    {
+     "id": "smithy_door",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "inn_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "keeper_room_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_1_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_2_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_3_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "shop_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "tailor_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "granary_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "guardhouse_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "tower_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ashgrove_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "vane_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ashgrove_servant_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "vane_servant_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "home_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "tamsin_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hideout_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "fenwick_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "couple_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "pell_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "jail_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "gate_lodge_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "cell_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "town_gate_west",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "town_gate_east",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "vestry_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "chapel_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "bertram_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "nessa_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "bakery_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "cooper_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "griselda_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ludo_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "pike_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "dunstan_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "mott_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "jeb_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "odo_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "marta_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "haskel_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hunter_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hrolf_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "deep_vault_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "keep_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "greyhold_gate_north",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "greyhold_gate_south",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "treasury_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    }
+   ],
+   "equipment": {
+    "cursor": 0,
+    "open": false,
+    "worn": {
+     "feet": "soft_shoes"
+    }
+   },
+   "fade": 0.0,
+   "frame": 4,
+   "frozen": false,
+   "hour": 8,
+   "jail": {
+    "escaped": false,
+    "grace_until": 0.0,
+    "released": false,
+    "sentence_end_day": null
+   },
+   "lockpick": {
+    "angle": 0.0,
+    "sweet_spot": 45.0,
+    "target": null
+   },
+   "messages": [
+    "Tutorial started: Explore merchants, trade wares, and open doors!",
+    "You wait for 1 hour...",
+    "Time Update: 08:00 hours",
+    "(Lys): \"Off to the inn - Hilde will want the pots on.\"",
+    "(Reeve Osric Pike): \"The tithe won't count itself.\"",
+    "Ludo is oiling his locks."
+   ],
+   "minute_accumulator": 0.12,
+   "mode": "explore",
+   "mouse_captured": true,
+   "moving": false,
+   "npcs": [
+    {
+     "crimes": 0,
+     "gold": 400.0,
+     "inventory": [
+      [
+       "shop_key",
+       1
+      ],
+      [
+       "home_key",
+       1
+      ],
+      [
+       "bread",
+       4
+      ],
+      [
+       "apple_1",
+       6
+      ],
+      [
+       "torch_item",
+       1
+      ]
+     ],
+     "name": "Shopkeeper Barnaby",
+     "pos": [
+      -69.73773,
+      1.93316,
+      11.41258
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 8
+    },
+    {
+     "crimes": 0,
+     "gold": 250.0,
+     "inventory": [
+      [
+       "inn_door_key",
+       1
+      ],
+      [
+       "keeper_room_door_key",
+       1
+      ],
+      [
+       "inn_room_1_door_key",
+       1
+      ],
+      [
+       "inn_room_2_door_key",
+       1
+      ],
+      [
+       "inn_room_3_door_key",
+       1
+      ],
+      [
+       "rent_night",
+       1
+      ],
+      [
+       "rent_week",
+       1
+      ],
+      [
+       "candle_stub",
+       6
+      ],
+      [
+       "soap",
+       3
+      ]
+     ],
+     "name": "Hilde the Innkeeper",
+     "pos": [
+      -36.0,
+      1.99029,
+      -12.8
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 350.0,
+     "inventory": [
+      [
+       "smithy_door_key",
+       1
+      ],
+      [
+       "hammer",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ]
+     ],
+     "name": "Gareth the Smith",
+     "pos": [
+      -69.25,
+      1.86598,
+      -6.75
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 3
+    },
+    {
+     "crimes": 0,
+     "gold": 300.0,
+     "inventory": [
+      [
+       "tailor_door_key",
+       1
+      ],
+      [
+       "thimble",
+       1
+      ]
+     ],
+     "name": "Mirelle the Tailor",
+     "pos": [
+      13.42561,
+      2.43692,
+      -12.05033
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 4
+    },
+    {
+     "crimes": 0,
+     "gold": 600.0,
+     "inventory": [
+      [
+       "hideout_door_key",
+       1
+      ],
+      [
+       "lockpick_pack",
+       3
+      ],
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "black_hood",
+       1
+      ],
+      [
+       "dried_meat",
+       4
+      ]
+     ],
+     "name": "Jae the Fence",
+     "pos": [
+      -10.0,
+      2.43692,
+      12.0
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "tamsin_door_key",
+       1
+      ],
+      [
+       "locket",
+       1
+      ]
+     ],
+     "name": "Tamsin",
+     "pos": [
+      -57.7855,
+      1.99029,
+      9.895
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "fenwick_door_key",
+       1
+      ],
+      [
+       "pipe",
+       1
+      ]
+     ],
+     "name": "Fenwick",
+     "pos": [
+      -35.00105,
+      1.62441,
+      10.9369
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "couple_door_key",
+       1
+      ],
+      [
+       "ladle",
+       1
+      ]
+     ],
+     "name": "Lys",
+     "pos": [
+      11.75,
+      2.43692,
+      13.14311
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 6
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "couple_door_key",
+       1
+      ],
+      [
+       "whetstone",
+       1
+      ]
+     ],
+     "name": "Dorran",
+     "pos": [
+      11.78264,
+      2.43692,
+      9.74248
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 4
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "pell_door_key",
+       1
+      ],
+      [
+       "sling",
+       1
+      ]
+     ],
+     "name": "Pell",
+     "pos": [
+      25.27096,
+      2.00992,
+      10.14519
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "vane_door_key",
+       1
+      ],
+      [
+       "vane_strongbox_key",
+       1
+      ],
+      [
+       "gold_snuffbox",
+       1
+      ]
+     ],
+     "name": "Lord Aurelian Vane",
+     "pos": [
+      24.97863,
+      11.70656,
+      -54.8661
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 18
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "ashgrove_door_key",
+       1
+      ],
+      [
+       "ashgrove_strongbox_key",
+       1
+      ],
+      [
+       "pearl_earrings",
+       1
+      ]
+     ],
+     "name": "Lady Seraphine Ashgrove",
+     "pos": [
+      -17.02137,
+      8.39867,
+      -54.8661
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 18
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "vane_door_key",
+       1
+      ],
+      [
+       "vane_servant_door_key",
+       1
+      ]
+     ],
+     "name": "Greaves",
+     "pos": [
+      10.0,
+      7.70656,
+      -56.4
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "ashgrove_door_key",
+       1
+      ],
+      [
+       "ashgrove_servant_door_key",
+       1
+      ]
+     ],
+     "name": "Ottilie",
+     "pos": [
+      -32.0,
+      4.39867,
+      -56.4
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Captain Vance",
+     "pos": [
+      0.0,
+      5.12627,
+      -39.0
+     ],
+     "state": "PATROL",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Aldric",
+     "pos": [
+      52.5,
+      21.94799,
+      -55.8
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Orrin",
+     "pos": [
+      53.5,
+      8.68676,
+      -40.5
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Mira",
+     "pos": [
+      43.55,
+      8.94799,
+      -48.2
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "gate_lodge_door_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Bram",
+     "pos": [
+      -6.2,
+      0.68741,
+      49.8
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "gate_lodge_door_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Wenna",
+     "pos": [
+      13.45,
+      0.68741,
+      50.5
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "cell_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Jailer Hesk",
+     "pos": [
+      50.8,
+      2.10362,
+      10.5
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "chapel_door_key",
+       1
+      ],
+      [
+       "vestry_door_key",
+       1
+      ],
+      [
+       "rosary",
+       1
+      ]
+     ],
+     "name": "Sister Maude",
+     "pos": [
+      -24.0,
+      0.85199,
+      46.8
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "bertram_door_key",
+       1
+      ],
+      [
+       "hand_bell",
+       1
+      ]
+     ],
+     "name": "Old Bertram",
+     "pos": [
+      33.75,
+      1.15075,
+      37.14882
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 4
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "nessa_door_key",
+       1
+      ],
+      [
+       "washboard",
+       1
+      ]
+     ],
+     "name": "Nessa",
+     "pos": [
+      -47.6,
+      1.08933,
+      28.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 180.0,
+     "inventory": [
+      [
+       "bakery_door_key",
+       1
+      ],
+      [
+       "bread",
+       4
+      ]
+     ],
+     "name": "Wynn the Baker",
+     "pos": [
+      38.4,
+      1.91223,
+      10.1
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "cooper_door_key",
+       1
+      ]
+     ],
+     "name": "Corwin the Cooper",
+     "pos": [
+      56.0,
+      4.45853,
+      -14.9
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "bread_parcel",
+       3
+      ]
+     ],
+     "name": "Hobb",
+     "pos": [
+      17.0,
+      0.68741,
+      41.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 140.0,
+     "inventory": [
+      [
+       "griselda_door_key",
+       1
+      ]
+     ],
+     "name": "Griselda the Herbwife",
+     "pos": [
+      -26.50202,
+      3.33205,
+      -29.69852
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 8
+    },
+    {
+     "crimes": 0,
+     "gold": 220.0,
+     "inventory": [
+      [
+       "ludo_door_key",
+       1
+      ]
+     ],
+     "name": "Ludo the Locksmith",
+     "pos": [
+      -14.25,
+      4.00216,
+      -30.1
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 90.0,
+     "inventory": [
+      [
+       "pike_door_key",
+       1
+      ],
+      [
+       "pike_tithe_chest_key",
+       1
+      ]
+     ],
+     "name": "Reeve Osric Pike",
+     "pos": [
+      12.75,
+      5.14354,
+      -29.35118
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 24.0,
+     "inventory": [
+      [
+       "dunstan_door_key",
+       1
+      ],
+      [
+       "lute",
+       1
+      ]
+     ],
+     "name": "Dunstan the Minstrel",
+     "pos": [
+      26.45,
+      6.12139,
+      -27.6
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "mott_door_key",
+       1
+      ]
+     ],
+     "name": "Mott the Tanner",
+     "pos": [
+      65.0,
+      0.47709,
+      40.4
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "jeb_door_key",
+       1
+      ],
+      [
+       "taper_pole",
+       1
+      ]
+     ],
+     "name": "Jeb the Lamplighter",
+     "pos": [
+      50.22469,
+      0.815,
+      32.65227
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "odo_door_key",
+       1
+      ]
+     ],
+     "name": "Odo the Farmer",
+     "pos": [
+      26.27968,
+      0.2206,
+      107.06992
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "marta_door_key",
+       1
+      ]
+     ],
+     "name": "Marta",
+     "pos": [
+      -16.0,
+      -0.05434,
+      98.0
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "haskel_door_key",
+       1
+      ]
+     ],
+     "name": "Haskel the Woodcutter",
+     "pos": [
+      -46.0,
+      0.55075,
+      84.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 40.0,
+     "inventory": [
+      [
+       "hunter_door_key",
+       1
+      ],
+      [
+       "hunting_knife",
+       1
+      ]
+     ],
+     "name": "Ysolde the Hunter",
+     "pos": [
+      -142.99813,
+      1.61096,
+      68.0904
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "hrolf_door_key",
+       1
+      ],
+      [
+       "hammer",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ]
+     ],
+     "name": "Hrolf the Hermit Smith",
+     "pos": [
+      -147.6,
+      2.27447,
+      27.6
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 180.0,
+     "inventory": [
+      [
+       "deep_vault_door_key",
+       1
+      ],
+      [
+       "gold_crown",
+       1
+      ]
+     ],
+     "name": "Grimmaw the Bandit King",
+     "pos": [
+      -130.0,
+      0.29,
+      -90.0
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [],
+     "name": "Vey the Cutthroat",
+     "pos": [
+      -145.0,
+      0.29,
+      -99.3
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 26.0,
+     "inventory": [],
+     "name": "Sable the Archer",
+     "pos": [
+      -184.5,
+      0.29,
+      -92.8
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 18.0,
+     "inventory": [],
+     "name": "Gutter",
+     "pos": [
+      -158.0,
+      0.29,
+      -85.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 40.0,
+     "inventory": [],
+     "name": "Ned Two-Fingers",
+     "pos": [
+      -182.67127,
+      0.29,
+      -86.92621
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 5
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [],
+     "name": "Old Crake",
+     "pos": [
+      -124.8,
+      0.29,
+      -91.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": true,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 45.0,
+     "inventory": [
+      [
+       "smugglers_key",
+       1
+      ],
+      [
+       "brandy",
+       1
+      ]
+     ],
+     "name": "Kell the Smuggler",
+     "pos": [
+      105.7023,
+      0.86,
+      26.44245
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 3
+    },
+    {
+     "crimes": 0,
+     "gold": 35.0,
+     "inventory": [],
+     "name": "Rusk the Smuggler",
+     "pos": [
+      116.5,
+      0.86,
+      20.0
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 20.0,
+     "inventory": [],
+     "name": "Maggs",
+     "pos": [
+      105.40364,
+      0.86,
+      20.95927
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 8.0,
+     "inventory": [],
+     "name": "Finch",
+     "pos": [
+      108.6,
+      0.86,
+      12.1
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 16.0,
+     "inventory": [],
+     "name": "Old Brannoc",
+     "pos": [
+      104.05158,
+      0.86,
+      25.07436
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 6
+    },
+    {
+     "crimes": 0,
+     "gold": 60.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ],
+      [
+       "treasury_door_key",
+       1
+      ]
+     ],
+     "name": "Ser Caddock",
+     "pos": [
+      94.99324,
+      4.30876,
+      109.5428
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 55.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Dame Ilsa",
+     "pos": [
+      96.9425,
+      4.30876,
+      112.99662
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 50.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Ser Aldwin",
+     "pos": [
+      87.55,
+      4.30876,
+      111.8
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 6.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Tobin the Squire",
+     "pos": [
+      95.64551,
+      4.30876,
+      114.67963
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    }
+   ],
+   "player": {
+    "crimes_witnessed": 0,
+    "crouch": false,
+    "eye": 1.55,
+    "gold": 60.0,
+    "inventory": [
+     [
+      "iron_lockpick",
+      1,
+      false
+     ],
+     [
+      "soft_shoes",
+      1,
+      false
+     ],
+     [
+      "silver_goblet",
+      1,
+      true
+     ]
+    ],
+    "pitch": 0.0,
+    "pos": [
+     -4.5,
+     2.43692,
+     4.0
+    ],
+    "skills": {
+     "Barter": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Lockpicking": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Pickpocket": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Smithing": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Sneak": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Stealing": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     }
+    },
+    "torch": false,
+    "yaw": 0.0
+   },
+   "prompt": null,
+   "running": true,
+   "sprinting": false,
+   "transfer": null,
+   "tutorial": null
+  },
+  "5": {
+   "confirmation": null,
+   "containers": [
+    {
+     "inventory": [
+      [
+       "candlestick",
+       1
+      ],
+      [
+       "wine",
+       3
+      ],
+      [
+       "thread",
+       5
+      ]
+     ],
+     "locked": false,
+     "name": "shop_shelf_west"
+    },
+    {
+     "inventory": [
+      [
+       "lantern",
+       1
+      ],
+      [
+       "honey",
+       2
+      ],
+      [
+       "plate",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "shop_shelf_east"
+    },
+    {
+     "inventory": [
+      [
+       "iron_dagger",
+       1
+      ],
+      [
+       "short_sword",
+       1
+      ],
+      [
+       "leather_cap",
+       1
+      ],
+      [
+       "iron_helm",
+       1
+      ],
+      [
+       "chain_shirt",
+       1
+      ],
+      [
+       "leather_jerkin",
+       1
+      ],
+      [
+       "iron_ore",
+       4
+      ],
+      [
+       "mallet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "smithy_rack"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       13
+      ]
+     ],
+     "locked": false,
+     "name": "smith_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       45
+      ],
+      [
+       "smith_apron",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "smith_chest"
+    },
+    {
+     "inventory": [
+      [
+       "linen_shirt",
+       1
+      ],
+      [
+       "white_cloak",
+       1
+      ],
+      [
+       "red_cap",
+       1
+      ],
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "soft_slippers",
+       1
+      ],
+      [
+       "needles",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "tailor_rack"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "tailor_table_food"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       12
+      ],
+      [
+       "bread",
+       10
+      ],
+      [
+       "ale",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "inn_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_1"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_2"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_3"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_4"
+    },
+    {
+     "inventory": [
+      [
+       "ration",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "gate_lodge_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       90
+      ],
+      [
+       "ivory_dice",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "barnaby_takings"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       26
+      ],
+      [
+       "fenwick_locket",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "fenwick_hearthstone"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       130
+      ],
+      [
+       "hilde_recipes",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "hilde_ale_cask"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_5"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "barnaby_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       13
+      ]
+     ],
+     "locked": false,
+     "name": "tamsin_table"
+    },
+    {
+     "inventory": [
+      [
+       "dried_meat",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "jae_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "fenwick_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       22
+      ]
+     ],
+     "locked": false,
+     "name": "couple_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "pell_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       60
+      ],
+      [
+       "ledger",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "barnaby_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       12
+      ],
+      [
+       "wedding_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "tamsin_chest"
+    },
+    {
+     "inventory": [
+      [
+       "ration",
+       16
+      ]
+     ],
+     "locked": false,
+     "name": "guard_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       75
+      ],
+      [
+       "steel_sword",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "guard_chest"
+    },
+    {
+     "inventory": [],
+     "locked": true,
+     "name": "jail_storage"
+    },
+    {
+     "inventory": [
+      [
+       "grain",
+       3
+      ],
+      [
+       "rusty_lantern",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "granary_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "roast_pheasant",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_dining_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ],
+      [
+       "cheese",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "honey",
+       3
+      ],
+      [
+       "ham",
+       1
+      ],
+      [
+       "spices",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_pantry"
+    },
+    {
+     "inventory": [
+      [
+       "silver_teapot",
+       1
+      ],
+      [
+       "silver_cutlery",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_silver_cabinet"
+    },
+    {
+     "inventory": [
+      [
+       "crystal_decanter",
+       1
+      ],
+      [
+       "wine",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_sideboard"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       9
+      ],
+      [
+       "apron",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_servant_chest"
+    },
+    {
+     "inventory": [
+      [
+       "perfume",
+       1
+      ],
+      [
+       "silver_comb",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_dressing_table"
+    },
+    {
+     "inventory": [
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "fine_shirt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_clothes_press"
+    },
+    {
+     "inventory": [
+      [
+       "fingers_of_the_magpie",
+       1
+      ],
+      [
+       "coins",
+       220
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "pearl_choker",
+       1
+      ],
+      [
+       "velvet_cloak",
+       1
+      ],
+      [
+       "gilt_circlet",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_wardrobe"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       140
+      ],
+      [
+       "silver_plate",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_coffer"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       38
+      ],
+      [
+       "love_letter_hobb",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_servant_stash"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "roast_pheasant",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "vane_dining_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ],
+      [
+       "cheese",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "vane_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "honey",
+       3
+      ],
+      [
+       "ham",
+       1
+      ],
+      [
+       "spices",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_pantry"
+    },
+    {
+     "inventory": [
+      [
+       "silver_teapot",
+       1
+      ],
+      [
+       "silver_cutlery",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_silver_cabinet"
+    },
+    {
+     "inventory": [
+      [
+       "crystal_decanter",
+       1
+      ],
+      [
+       "wine",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "vane_sideboard"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       9
+      ],
+      [
+       "apron",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_servant_chest"
+    },
+    {
+     "inventory": [
+      [
+       "gold_quill",
+       1
+      ],
+      [
+       "wax_seal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_writing_desk"
+    },
+    {
+     "inventory": [
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "fine_shirt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_clothes_press"
+    },
+    {
+     "inventory": [
+      [
+       "black_cloak",
+       1
+      ],
+      [
+       "ruby_necklace",
+       1
+      ],
+      [
+       "coins",
+       260
+      ]
+     ],
+     "locked": true,
+     "name": "vane_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "ravenfeather_cloak",
+       1
+      ],
+      [
+       "feathered_hat",
+       1
+      ],
+      [
+       "signet_ring_chain",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_wardrobe"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       180
+      ],
+      [
+       "silver_candelabra",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_coffer"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       175
+      ],
+      [
+       "butlers_ledger",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_servant_stash"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       18
+      ]
+     ],
+     "locked": true,
+     "name": "chapel_poor_box"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ],
+      [
+       "herbs",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "maude_table"
+    },
+    {
+     "inventory": [
+      [
+       "wendel_reliquary",
+       1
+      ],
+      [
+       "coins",
+       40
+      ]
+     ],
+     "locked": true,
+     "name": "chapel_reliquary"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       6
+      ],
+      [
+       "old_helm",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       160
+      ],
+      [
+       "service_medal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_rain_barrel"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "nessa_table"
+    },
+    {
+     "inventory": [
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "silver_buttons",
+       1
+      ],
+      [
+       "perfumed_letter",
+       1
+      ],
+      [
+       "coins",
+       14
+      ]
+     ],
+     "locked": false,
+     "name": "nessa_basket"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ],
+      [
+       "meat_pie",
+       4
+      ],
+      [
+       "sweet_roll",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "bakery_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "wynn_table"
+    },
+    {
+     "inventory": [
+      [
+       "flour",
+       3
+      ],
+      [
+       "coins",
+       95
+      ],
+      [
+       "mothers_brooch",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bakery_flour"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       7
+      ],
+      [
+       "adze",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       210
+      ],
+      [
+       "silver_hoop",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_rain_barrel"
+    },
+    {
+     "inventory": [
+      [
+       "apple_1",
+       6
+      ],
+      [
+       "bread",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "hobb_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       44
+      ],
+      [
+       "ribbon",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "hobb_stash"
+    },
+    {
+     "inventory": [
+      [
+       "healing_salve",
+       4
+      ],
+      [
+       "sleeping_draught",
+       2
+      ],
+      [
+       "lavender",
+       6
+      ],
+      [
+       "valerian",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       120
+      ],
+      [
+       "poison_book",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_jar"
+    },
+    {
+     "inventory": [
+      [
+       "iron_lockpick",
+       8
+      ],
+      [
+       "fine_lockpick",
+       4
+      ],
+      [
+       "padlock",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ludo_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "ludo_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       150
+      ],
+      [
+       "lockpick_pack",
+       3
+      ],
+      [
+       "wax_kit",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ludo_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "tithe_roll",
+       1
+      ],
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "pike_desk"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       240
+      ],
+      [
+       "tithe_seal",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "pike_tithe_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       130
+      ],
+      [
+       "second_ledger",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "pike_floorboard"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "bread",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "dunstan_table"
+    },
+    {
+     "inventory": [
+      [
+       "gold_locket",
+       1
+      ],
+      [
+       "letters_ashgrove",
+       1
+      ],
+      [
+       "coins",
+       22
+      ]
+     ],
+     "locked": true,
+     "name": "dunstan_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "mott_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       85
+      ],
+      [
+       "fine_leather",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "mott_lime_vat"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "jeb_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       58
+      ],
+      [
+       "silver_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "jeb_brick"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "odo_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       18
+      ],
+      [
+       "wool_cloak",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "odo_chest"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       4
+      ],
+      [
+       "bread",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "marta_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       10
+      ],
+      [
+       "silk_gloves",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "marta_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       8
+      ],
+      [
+       "hatchet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       35
+      ],
+      [
+       "silver_brooch",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_stash"
+    },
+    {
+     "inventory": [
+      [
+       "venison",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "hunter_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       25
+      ],
+      [
+       "shadow_boots",
+       1
+      ],
+      [
+       "pelt",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "hunter_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       9
+      ],
+      [
+       "venison",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "hrolf_table"
+    },
+    {
+     "inventory": [
+      [
+       "steel_sword",
+       1
+      ],
+      [
+       "hunting_knife",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ],
+      [
+       "iron_ore",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "hrolf_rack"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       70
+      ],
+      [
+       "fathers_hammer",
+       1
+      ],
+      [
+       "letter_gareth",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "hrolf_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       17
+      ],
+      [
+       "ale",
+       10
+      ],
+      [
+       "dice",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       120
+      ],
+      [
+       "black_hood",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "deep_spoils"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       48
+      ],
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "pocket_watch",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ned_chest"
+    },
+    {
+     "inventory": [
+      [
+       "amulet_open_door",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_pedestal"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       500
+      ],
+      [
+       "black_shoes",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "deep_vault_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       37
+      ],
+      [
+       "iron_lockpick",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "deep_vault_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       64
+      ],
+      [
+       "silver_ore",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "deep_nook_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       90
+      ],
+      [
+       "gold_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_nook_stash"
+    },
+    {
+     "inventory": [
+      [
+       "silk_bolt",
+       1
+      ],
+      [
+       "silver_plate",
+       1
+      ],
+      [
+       "coins",
+       34
+      ]
+     ],
+     "locked": false,
+     "name": "deep_cubby_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       52
+      ],
+      [
+       "fine_arrows",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "deep_cubby_cache"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       41
+      ],
+      [
+       "lucky_tooth",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_barracks_stash"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       22
+      ],
+      [
+       "brandy",
+       2
+      ],
+      [
+       "cards",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       150
+      ],
+      [
+       "shadowsilk_hood",
+       1
+      ],
+      [
+       "black_tunic",
+       1
+      ],
+      [
+       "brandy",
+       4
+      ]
+     ],
+     "locked": true,
+     "name": "smugglers_stash"
+    },
+    {
+     "inventory": [
+      [
+       "pepper",
+       2
+      ],
+      [
+       "silk_bolt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "smuggler_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       52
+      ],
+      [
+       "silver_locket",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_nook_bones"
+    },
+    {
+     "inventory": [
+      [
+       "rum",
+       3
+      ],
+      [
+       "coins",
+       45
+      ]
+     ],
+     "locked": false,
+     "name": "cove_rum_keg"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       110
+      ],
+      [
+       "sea_chart",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_kell_stash"
+    },
+    {
+     "inventory": [
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "candle_stub",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "mine_tool_crate"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       46
+      ],
+      [
+       "iron_ore",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "mine_harl_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       140
+      ],
+      [
+       "pit_boss_seal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "mine_wage_box"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       21
+      ]
+     ],
+     "locked": false,
+     "name": "mine_sump_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       33
+      ],
+      [
+       "candle_stub",
+       4
+      ]
+     ],
+     "locked": false,
+     "name": "mine_niche_stash"
+    },
+    {
+     "inventory": [
+      [
+       "roast_pheasant",
+       9
+      ],
+      [
+       "wine",
+       3
+      ],
+      [
+       "bread",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "keep_table"
+    },
+    {
+     "inventory": [
+      [
+       "nightweave_cloak",
+       1
+      ],
+      [
+       "duskwalker_boots",
+       1
+      ],
+      [
+       "coins",
+       400
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       260
+      ],
+      [
+       "tithe_ledger",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_tithe"
+    },
+    {
+     "inventory": [
+      [
+       "steel_sword",
+       1
+      ],
+      [
+       "plate_cuirass",
+       1
+      ],
+      [
+       "coins",
+       60
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_armoury"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       23
+      ],
+      [
+       "prayer_beads",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "shrine_offerings"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "shrine_pilgrim"
+    }
+   ],
+   "doors": [
+    {
+     "id": "smithy_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "keeper_room_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_1_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_2_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_3_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "shop_door",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "tailor_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "granary_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "guardhouse_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "tower_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ashgrove_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "vane_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ashgrove_servant_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "vane_servant_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "home_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "tamsin_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hideout_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "fenwick_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "couple_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "pell_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "jail_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "gate_lodge_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "cell_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "town_gate_west",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "town_gate_east",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "vestry_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "chapel_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "bertram_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "nessa_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "bakery_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "cooper_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "griselda_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ludo_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "pike_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "dunstan_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "mott_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "jeb_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "odo_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "marta_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "haskel_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hunter_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hrolf_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "deep_vault_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "keep_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "greyhold_gate_north",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "greyhold_gate_south",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "treasury_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    }
+   ],
+   "equipment": {
+    "cursor": 0,
+    "open": false,
+    "worn": {
+     "feet": "soft_shoes"
+    }
+   },
+   "fade": 0.0,
+   "frame": 8,
+   "frozen": false,
+   "hour": 9,
+   "jail": {
+    "escaped": false,
+    "grace_until": 0.0,
+    "released": false,
+    "sentence_end_day": null
+   },
+   "lockpick": {
+    "angle": 0.0,
+    "sweet_spot": 45.0,
+    "target": null
+   },
+   "messages": [
+    "Old Bertram is crying the morning news by the well.",
+    "Lys is helping in the inn kitchen.",
+    "Barnaby opened the shop for business.",
+    "(Dorran): \"Barnaby's crates won't carry themselves.\"",
+    "Time Update: 09:00 hours",
+    "Ludo has opened his shop."
+   ],
+   "minute_accumulator": 0.24,
+   "mode": "explore",
+   "mouse_captured": true,
+   "moving": false,
+   "npcs": [
+    {
+     "crimes": 0,
+     "gold": 400.0,
+     "inventory": [
+      [
+       "shop_key",
+       1
+      ],
+      [
+       "home_key",
+       1
+      ],
+      [
+       "bread",
+       4
+      ],
+      [
+       "apple_1",
+       6
+      ],
+      [
+       "torch_item",
+       1
+      ]
+     ],
+     "name": "Shopkeeper Barnaby",
+     "pos": [
+      -13.0,
+      2.43692,
+      -12.2
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 250.0,
+     "inventory": [
+      [
+       "inn_door_key",
+       1
+      ],
+      [
+       "keeper_room_door_key",
+       1
+      ],
+      [
+       "inn_room_1_door_key",
+       1
+      ],
+      [
+       "inn_room_2_door_key",
+       1
+      ],
+      [
+       "inn_room_3_door_key",
+       1
+      ],
+      [
+       "rent_night",
+       1
+      ],
+      [
+       "rent_week",
+       1
+      ],
+      [
+       "candle_stub",
+       6
+      ],
+      [
+       "soap",
+       3
+      ]
+     ],
+     "name": "Hilde the Innkeeper",
+     "pos": [
+      -36.0,
+      1.99029,
+      -12.8
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 350.0,
+     "inventory": [
+      [
+       "smithy_door_key",
+       1
+      ],
+      [
+       "hammer",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ]
+     ],
+     "name": "Gareth the Smith",
+     "pos": [
+      -62.0,
+      1.86598,
+      -7.8
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 300.0,
+     "inventory": [
+      [
+       "tailor_door_key",
+       1
+      ],
+      [
+       "thimble",
+       1
+      ]
+     ],
+     "name": "Mirelle the Tailor",
+     "pos": [
+      10.8041,
+      2.43692,
+      -8.07478
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 3
+    },
+    {
+     "crimes": 0,
+     "gold": 600.0,
+     "inventory": [
+      [
+       "hideout_door_key",
+       1
+      ],
+      [
+       "lockpick_pack",
+       3
+      ],
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "black_hood",
+       1
+      ],
+      [
+       "dried_meat",
+       4
+      ]
+     ],
+     "name": "Jae the Fence",
+     "pos": [
+      -10.0,
+      2.43692,
+      12.0
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "tamsin_door_key",
+       1
+      ],
+      [
+       "locket",
+       1
+      ]
+     ],
+     "name": "Tamsin",
+     "pos": [
+      -5.5514,
+      2.43692,
+      2.49005
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "fenwick_door_key",
+       1
+      ],
+      [
+       "pipe",
+       1
+      ]
+     ],
+     "name": "Fenwick",
+     "pos": [
+      -33.23943,
+      1.62441,
+      9.43287
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 3
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "couple_door_key",
+       1
+      ],
+      [
+       "ladle",
+       1
+      ]
+     ],
+     "name": "Lys",
+     "pos": [
+      -35.9,
+      1.99029,
+      -14.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "couple_door_key",
+       1
+      ],
+      [
+       "whetstone",
+       1
+      ]
+     ],
+     "name": "Dorran",
+     "pos": [
+      -13.0823,
+      2.43692,
+      -5.81003
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "pell_door_key",
+       1
+      ],
+      [
+       "sling",
+       1
+      ]
+     ],
+     "name": "Pell",
+     "pos": [
+      8.6561,
+      2.43692,
+      2.80529
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "vane_door_key",
+       1
+      ],
+      [
+       "vane_strongbox_key",
+       1
+      ],
+      [
+       "gold_snuffbox",
+       1
+      ]
+     ],
+     "name": "Lord Aurelian Vane",
+     "pos": [
+      23.30514,
+      7.70656,
+      -52.89724
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 5
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "ashgrove_door_key",
+       1
+      ],
+      [
+       "ashgrove_strongbox_key",
+       1
+      ],
+      [
+       "pearl_earrings",
+       1
+      ]
+     ],
+     "name": "Lady Seraphine Ashgrove",
+     "pos": [
+      -18.69486,
+      4.39867,
+      -52.89724
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 8
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "vane_door_key",
+       1
+      ],
+      [
+       "vane_servant_door_key",
+       1
+      ]
+     ],
+     "name": "Greaves",
+     "pos": [
+      9.75,
+      7.70656,
+      -54.68395
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 14
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "ashgrove_door_key",
+       1
+      ],
+      [
+       "ashgrove_servant_door_key",
+       1
+      ]
+     ],
+     "name": "Ottilie",
+     "pos": [
+      -32.25,
+      4.39867,
+      -54.68395
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 13
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Captain Vance",
+     "pos": [
+      -17.67983,
+      2.2883,
+      -2.96196
+     ],
+     "state": "PATROL",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Aldric",
+     "pos": [
+      52.5,
+      21.94799,
+      -55.8
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Orrin",
+     "pos": [
+      53.5,
+      8.68676,
+      -40.5
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Mira",
+     "pos": [
+      43.55,
+      8.94799,
+      -48.2
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "gate_lodge_door_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Bram",
+     "pos": [
+      -4.3424,
+      0.68741,
+      49.8
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "gate_lodge_door_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Wenna",
+     "pos": [
+      13.45,
+      0.68741,
+      50.5
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "cell_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Jailer Hesk",
+     "pos": [
+      50.8,
+      2.10362,
+      10.5
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "chapel_door_key",
+       1
+      ],
+      [
+       "vestry_door_key",
+       1
+      ],
+      [
+       "rosary",
+       1
+      ]
+     ],
+     "name": "Sister Maude",
+     "pos": [
+      -24.05429,
+      0.85199,
+      44.94319
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 7
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "bertram_door_key",
+       1
+      ],
+      [
+       "hand_bell",
+       1
+      ]
+     ],
+     "name": "Old Bertram",
+     "pos": [
+      3.74703,
+      2.43688,
+      9.00153
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "nessa_door_key",
+       1
+      ],
+      [
+       "washboard",
+       1
+      ]
+     ],
+     "name": "Nessa",
+     "pos": [
+      -47.6,
+      1.08933,
+      28.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 180.0,
+     "inventory": [
+      [
+       "bakery_door_key",
+       1
+      ],
+      [
+       "bread",
+       4
+      ]
+     ],
+     "name": "Wynn the Baker",
+     "pos": [
+      38.4,
+      1.91223,
+      10.1
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "cooper_door_key",
+       1
+      ]
+     ],
+     "name": "Corwin the Cooper",
+     "pos": [
+      56.0,
+      4.45853,
+      -14.9
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "bread_parcel",
+       3
+      ]
+     ],
+     "name": "Hobb",
+     "pos": [
+      17.20514,
+      0.68741,
+      39.15376
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 140.0,
+     "inventory": [
+      [
+       "griselda_door_key",
+       1
+      ]
+     ],
+     "name": "Griselda the Herbwife",
+     "pos": [
+      -31.84624,
+      1.99029,
+      -22.79486
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 7
+    },
+    {
+     "crimes": 0,
+     "gold": 220.0,
+     "inventory": [
+      [
+       "ludo_door_key",
+       1
+      ]
+     ],
+     "name": "Ludo the Locksmith",
+     "pos": [
+      -14.25,
+      4.00216,
+      -30.1
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 90.0,
+     "inventory": [
+      [
+       "pike_door_key",
+       1
+      ],
+      [
+       "pike_tithe_chest_key",
+       1
+      ]
+     ],
+     "name": "Reeve Osric Pike",
+     "pos": [
+      11.0,
+      5.14354,
+      -31.7
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 24.0,
+     "inventory": [
+      [
+       "dunstan_door_key",
+       1
+      ],
+      [
+       "lute",
+       1
+      ]
+     ],
+     "name": "Dunstan the Minstrel",
+     "pos": [
+      26.45,
+      6.12139,
+      -27.6
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "mott_door_key",
+       1
+      ]
+     ],
+     "name": "Mott the Tanner",
+     "pos": [
+      65.0,
+      0.47709,
+      40.4
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "jeb_door_key",
+       1
+      ],
+      [
+       "taper_pole",
+       1
+      ]
+     ],
+     "name": "Jeb the Lamplighter",
+     "pos": [
+      51.45,
+      0.815,
+      32.4
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "odo_door_key",
+       1
+      ]
+     ],
+     "name": "Odo the Farmer",
+     "pos": [
+      24.19392,
+      0.26027,
+      112.35456
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "marta_door_key",
+       1
+      ]
+     ],
+     "name": "Marta",
+     "pos": [
+      -26.58631,
+      0.34644,
+      101.41369
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "haskel_door_key",
+       1
+      ]
+     ],
+     "name": "Haskel the Woodcutter",
+     "pos": [
+      -46.0,
+      0.55075,
+      84.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 40.0,
+     "inventory": [
+      [
+       "hunter_door_key",
+       1
+      ],
+      [
+       "hunting_knife",
+       1
+      ]
+     ],
+     "name": "Ysolde the Hunter",
+     "pos": [
+      -110.0,
+      0.10084,
+      110.0
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "hrolf_door_key",
+       1
+      ],
+      [
+       "hammer",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ]
+     ],
+     "name": "Hrolf the Hermit Smith",
+     "pos": [
+      -147.6,
+      2.27447,
+      27.6
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 180.0,
+     "inventory": [
+      [
+       "deep_vault_door_key",
+       1
+      ],
+      [
+       "gold_crown",
+       1
+      ]
+     ],
+     "name": "Grimmaw the Bandit King",
+     "pos": [
+      -168.82588,
+      0.29,
+      -90.80187
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 3
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [],
+     "name": "Vey the Cutthroat",
+     "pos": [
+      -145.0,
+      0.29,
+      -99.3
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 26.0,
+     "inventory": [],
+     "name": "Sable the Archer",
+     "pos": [
+      -184.5,
+      0.29,
+      -92.8
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 18.0,
+     "inventory": [],
+     "name": "Gutter",
+     "pos": [
+      -158.0,
+      0.29,
+      -85.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 40.0,
+     "inventory": [],
+     "name": "Ned Two-Fingers",
+     "pos": [
+      -141.7424,
+      0.29,
+      -88.0
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [],
+     "name": "Old Crake",
+     "pos": [
+      -124.8,
+      0.29,
+      -91.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": true,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 45.0,
+     "inventory": [
+      [
+       "smugglers_key",
+       1
+      ],
+      [
+       "brandy",
+       1
+      ]
+     ],
+     "name": "Kell the Smuggler",
+     "pos": [
+      101.0,
+      0.86,
+      14.5
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 35.0,
+     "inventory": [],
+     "name": "Rusk the Smuggler",
+     "pos": [
+      116.5,
+      0.86,
+      20.0
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 20.0,
+     "inventory": [],
+     "name": "Maggs",
+     "pos": [
+      105.66339,
+      0.86,
+      24.27306
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 6
+    },
+    {
+     "crimes": 0,
+     "gold": 8.0,
+     "inventory": [],
+     "name": "Finch",
+     "pos": [
+      108.6,
+      0.86,
+      12.1
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 16.0,
+     "inventory": [],
+     "name": "Old Brannoc",
+     "pos": [
+      132.0,
+      -0.1745,
+      33.2
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 60.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ],
+      [
+       "treasury_door_key",
+       1
+      ]
+     ],
+     "name": "Ser Caddock",
+     "pos": [
+      110.64024,
+      3.42976,
+      119.84728
+     ],
+     "state": "PATROL",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 55.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Dame Ilsa",
+     "pos": [
+      87.55,
+      4.30876,
+      109.2
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 50.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Ser Aldwin",
+     "pos": [
+      87.55,
+      4.30876,
+      111.8
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 6.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Tobin the Squire",
+     "pos": [
+      104.2,
+      4.30876,
+      108.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    }
+   ],
+   "player": {
+    "crimes_witnessed": 0,
+    "crouch": false,
+    "eye": 1.55,
+    "gold": 60.0,
+    "inventory": [
+     [
+      "iron_lockpick",
+      1,
+      false
+     ],
+     [
+      "soft_shoes",
+      1,
+      false
+     ],
+     [
+      "silver_goblet",
+      1,
+      true
+     ]
+    ],
+    "pitch": 0.0,
+    "pos": [
+     -4.5,
+     2.43692,
+     4.0
+    ],
+    "skills": {
+     "Barter": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Lockpicking": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Pickpocket": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Smithing": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Sneak": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Stealing": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     }
+    },
+    "torch": false,
+    "yaw": 0.0
+   },
+   "prompt": "[E] Talk to Tamsin",
+   "running": true,
+   "sprinting": false,
+   "transfer": null,
+   "tutorial": null
+  },
+  "8": {
+   "confirmation": null,
+   "containers": [
+    {
+     "inventory": [
+      [
+       "candlestick",
+       1
+      ],
+      [
+       "wine",
+       3
+      ],
+      [
+       "thread",
+       5
+      ]
+     ],
+     "locked": false,
+     "name": "shop_shelf_west"
+    },
+    {
+     "inventory": [
+      [
+       "lantern",
+       1
+      ],
+      [
+       "honey",
+       2
+      ],
+      [
+       "plate",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "shop_shelf_east"
+    },
+    {
+     "inventory": [
+      [
+       "iron_dagger",
+       1
+      ],
+      [
+       "short_sword",
+       1
+      ],
+      [
+       "leather_cap",
+       1
+      ],
+      [
+       "iron_helm",
+       1
+      ],
+      [
+       "chain_shirt",
+       1
+      ],
+      [
+       "leather_jerkin",
+       1
+      ],
+      [
+       "iron_ore",
+       4
+      ],
+      [
+       "mallet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "smithy_rack"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       13
+      ]
+     ],
+     "locked": false,
+     "name": "smith_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       45
+      ],
+      [
+       "smith_apron",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "smith_chest"
+    },
+    {
+     "inventory": [
+      [
+       "linen_shirt",
+       1
+      ],
+      [
+       "white_cloak",
+       1
+      ],
+      [
+       "red_cap",
+       1
+      ],
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "soft_slippers",
+       1
+      ],
+      [
+       "needles",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "tailor_rack"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "tailor_table_food"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       12
+      ],
+      [
+       "bread",
+       10
+      ],
+      [
+       "ale",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "inn_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_1"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_2"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_3"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_4"
+    },
+    {
+     "inventory": [
+      [
+       "ration",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "gate_lodge_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       90
+      ],
+      [
+       "ivory_dice",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "barnaby_takings"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       26
+      ],
+      [
+       "fenwick_locket",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "fenwick_hearthstone"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       130
+      ],
+      [
+       "hilde_recipes",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "hilde_ale_cask"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "inn_table_5"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "barnaby_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       13
+      ]
+     ],
+     "locked": false,
+     "name": "tamsin_table"
+    },
+    {
+     "inventory": [
+      [
+       "dried_meat",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "jae_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "fenwick_table"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       22
+      ]
+     ],
+     "locked": false,
+     "name": "couple_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "pell_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       60
+      ],
+      [
+       "ledger",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "barnaby_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       12
+      ],
+      [
+       "wedding_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "tamsin_chest"
+    },
+    {
+     "inventory": [
+      [
+       "ration",
+       16
+      ]
+     ],
+     "locked": false,
+     "name": "guard_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       75
+      ],
+      [
+       "steel_sword",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "guard_chest"
+    },
+    {
+     "inventory": [],
+     "locked": true,
+     "name": "jail_storage"
+    },
+    {
+     "inventory": [
+      [
+       "grain",
+       3
+      ],
+      [
+       "rusty_lantern",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "granary_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "roast_pheasant",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_dining_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ],
+      [
+       "cheese",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "honey",
+       3
+      ],
+      [
+       "ham",
+       1
+      ],
+      [
+       "spices",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_pantry"
+    },
+    {
+     "inventory": [
+      [
+       "silver_teapot",
+       1
+      ],
+      [
+       "silver_cutlery",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_silver_cabinet"
+    },
+    {
+     "inventory": [
+      [
+       "crystal_decanter",
+       1
+      ],
+      [
+       "wine",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_sideboard"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       9
+      ],
+      [
+       "apron",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_servant_chest"
+    },
+    {
+     "inventory": [
+      [
+       "perfume",
+       1
+      ],
+      [
+       "silver_comb",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_dressing_table"
+    },
+    {
+     "inventory": [
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "fine_shirt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_clothes_press"
+    },
+    {
+     "inventory": [
+      [
+       "fingers_of_the_magpie",
+       1
+      ],
+      [
+       "coins",
+       220
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "pearl_choker",
+       1
+      ],
+      [
+       "velvet_cloak",
+       1
+      ],
+      [
+       "gilt_circlet",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_wardrobe"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       140
+      ],
+      [
+       "silver_plate",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ashgrove_coffer"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       38
+      ],
+      [
+       "love_letter_hobb",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ashgrove_servant_stash"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "roast_pheasant",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "vane_dining_table"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ],
+      [
+       "cheese",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "vane_kitchen_table"
+    },
+    {
+     "inventory": [
+      [
+       "honey",
+       3
+      ],
+      [
+       "ham",
+       1
+      ],
+      [
+       "spices",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_pantry"
+    },
+    {
+     "inventory": [
+      [
+       "silver_teapot",
+       1
+      ],
+      [
+       "silver_cutlery",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_silver_cabinet"
+    },
+    {
+     "inventory": [
+      [
+       "crystal_decanter",
+       1
+      ],
+      [
+       "wine",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "vane_sideboard"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       9
+      ],
+      [
+       "apron",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_servant_chest"
+    },
+    {
+     "inventory": [
+      [
+       "gold_quill",
+       1
+      ],
+      [
+       "wax_seal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_writing_desk"
+    },
+    {
+     "inventory": [
+      [
+       "silk_gloves",
+       1
+      ],
+      [
+       "fine_shirt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_clothes_press"
+    },
+    {
+     "inventory": [
+      [
+       "black_cloak",
+       1
+      ],
+      [
+       "ruby_necklace",
+       1
+      ],
+      [
+       "coins",
+       260
+      ]
+     ],
+     "locked": true,
+     "name": "vane_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "ravenfeather_cloak",
+       1
+      ],
+      [
+       "feathered_hat",
+       1
+      ],
+      [
+       "signet_ring_chain",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_wardrobe"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       180
+      ],
+      [
+       "silver_candelabra",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "vane_coffer"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       175
+      ],
+      [
+       "butlers_ledger",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "vane_servant_stash"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       18
+      ]
+     ],
+     "locked": true,
+     "name": "chapel_poor_box"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ],
+      [
+       "herbs",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "maude_table"
+    },
+    {
+     "inventory": [
+      [
+       "wendel_reliquary",
+       1
+      ],
+      [
+       "coins",
+       40
+      ]
+     ],
+     "locked": true,
+     "name": "chapel_reliquary"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       6
+      ],
+      [
+       "old_helm",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       160
+      ],
+      [
+       "service_medal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bertram_rain_barrel"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "nessa_table"
+    },
+    {
+     "inventory": [
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "silver_buttons",
+       1
+      ],
+      [
+       "perfumed_letter",
+       1
+      ],
+      [
+       "coins",
+       14
+      ]
+     ],
+     "locked": false,
+     "name": "nessa_basket"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ],
+      [
+       "meat_pie",
+       4
+      ],
+      [
+       "sweet_roll",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "bakery_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "wynn_table"
+    },
+    {
+     "inventory": [
+      [
+       "flour",
+       3
+      ],
+      [
+       "coins",
+       95
+      ],
+      [
+       "mothers_brooch",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "bakery_flour"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       7
+      ],
+      [
+       "adze",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       210
+      ],
+      [
+       "silver_hoop",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "corwin_rain_barrel"
+    },
+    {
+     "inventory": [
+      [
+       "apple_1",
+       6
+      ],
+      [
+       "bread",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "hobb_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       44
+      ],
+      [
+       "ribbon",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "hobb_stash"
+    },
+    {
+     "inventory": [
+      [
+       "healing_salve",
+       4
+      ],
+      [
+       "sleeping_draught",
+       2
+      ],
+      [
+       "lavender",
+       6
+      ],
+      [
+       "valerian",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       120
+      ],
+      [
+       "poison_book",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "griselda_jar"
+    },
+    {
+     "inventory": [
+      [
+       "iron_lockpick",
+       8
+      ],
+      [
+       "fine_lockpick",
+       4
+      ],
+      [
+       "padlock",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "ludo_shelf"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "ludo_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       150
+      ],
+      [
+       "lockpick_pack",
+       3
+      ],
+      [
+       "wax_kit",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ludo_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "tithe_roll",
+       1
+      ],
+      [
+       "bread",
+       10
+      ]
+     ],
+     "locked": false,
+     "name": "pike_desk"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       240
+      ],
+      [
+       "tithe_seal",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "pike_tithe_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       130
+      ],
+      [
+       "second_ledger",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "pike_floorboard"
+    },
+    {
+     "inventory": [
+      [
+       "wine",
+       2
+      ],
+      [
+       "bread",
+       8
+      ]
+     ],
+     "locked": false,
+     "name": "dunstan_table"
+    },
+    {
+     "inventory": [
+      [
+       "gold_locket",
+       1
+      ],
+      [
+       "letters_ashgrove",
+       1
+      ],
+      [
+       "coins",
+       22
+      ]
+     ],
+     "locked": true,
+     "name": "dunstan_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       9
+      ]
+     ],
+     "locked": false,
+     "name": "mott_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       85
+      ],
+      [
+       "fine_leather",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "mott_lime_vat"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "jeb_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       58
+      ],
+      [
+       "silver_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "jeb_brick"
+    },
+    {
+     "inventory": [
+      [
+       "bread",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "odo_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       18
+      ],
+      [
+       "wool_cloak",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "odo_chest"
+    },
+    {
+     "inventory": [
+      [
+       "ale",
+       4
+      ],
+      [
+       "bread",
+       7
+      ]
+     ],
+     "locked": false,
+     "name": "marta_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       10
+      ],
+      [
+       "silk_gloves",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "marta_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       8
+      ],
+      [
+       "hatchet",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       35
+      ],
+      [
+       "silver_brooch",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "haskel_stash"
+    },
+    {
+     "inventory": [
+      [
+       "venison",
+       11
+      ]
+     ],
+     "locked": false,
+     "name": "hunter_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       25
+      ],
+      [
+       "shadow_boots",
+       1
+      ],
+      [
+       "pelt",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "hunter_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       9
+      ],
+      [
+       "venison",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "hrolf_table"
+    },
+    {
+     "inventory": [
+      [
+       "steel_sword",
+       1
+      ],
+      [
+       "hunting_knife",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ],
+      [
+       "iron_ore",
+       6
+      ]
+     ],
+     "locked": false,
+     "name": "hrolf_rack"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       70
+      ],
+      [
+       "fathers_hammer",
+       1
+      ],
+      [
+       "letter_gareth",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "hrolf_chest"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       17
+      ],
+      [
+       "ale",
+       10
+      ],
+      [
+       "dice",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       120
+      ],
+      [
+       "black_hood",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "deep_spoils"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       48
+      ],
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "pocket_watch",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "ned_chest"
+    },
+    {
+     "inventory": [
+      [
+       "amulet_open_door",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_pedestal"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       500
+      ],
+      [
+       "black_shoes",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "deep_vault_chest"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       37
+      ],
+      [
+       "iron_lockpick",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "deep_vault_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       64
+      ],
+      [
+       "silver_ore",
+       2
+      ]
+     ],
+     "locked": false,
+     "name": "deep_nook_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       90
+      ],
+      [
+       "gold_ring",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_nook_stash"
+    },
+    {
+     "inventory": [
+      [
+       "silk_bolt",
+       1
+      ],
+      [
+       "silver_plate",
+       1
+      ],
+      [
+       "coins",
+       34
+      ]
+     ],
+     "locked": false,
+     "name": "deep_cubby_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       52
+      ],
+      [
+       "fine_arrows",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "deep_cubby_cache"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       41
+      ],
+      [
+       "lucky_tooth",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "deep_barracks_stash"
+    },
+    {
+     "inventory": [
+      [
+       "stew",
+       22
+      ],
+      [
+       "brandy",
+       2
+      ],
+      [
+       "cards",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_table"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       150
+      ],
+      [
+       "shadowsilk_hood",
+       1
+      ],
+      [
+       "black_tunic",
+       1
+      ],
+      [
+       "brandy",
+       4
+      ]
+     ],
+     "locked": true,
+     "name": "smugglers_stash"
+    },
+    {
+     "inventory": [
+      [
+       "pepper",
+       2
+      ],
+      [
+       "silk_bolt",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "smuggler_sacks"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       52
+      ],
+      [
+       "silver_locket",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_nook_bones"
+    },
+    {
+     "inventory": [
+      [
+       "rum",
+       3
+      ],
+      [
+       "coins",
+       45
+      ]
+     ],
+     "locked": false,
+     "name": "cove_rum_keg"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       110
+      ],
+      [
+       "sea_chart",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "cove_kell_stash"
+    },
+    {
+     "inventory": [
+      [
+       "pickaxe",
+       1
+      ],
+      [
+       "candle_stub",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "mine_tool_crate"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       46
+      ],
+      [
+       "iron_ore",
+       3
+      ]
+     ],
+     "locked": false,
+     "name": "mine_harl_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       140
+      ],
+      [
+       "pit_boss_seal",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "mine_wage_box"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       21
+      ]
+     ],
+     "locked": false,
+     "name": "mine_sump_bones"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       33
+      ],
+      [
+       "candle_stub",
+       4
+      ]
+     ],
+     "locked": false,
+     "name": "mine_niche_stash"
+    },
+    {
+     "inventory": [
+      [
+       "roast_pheasant",
+       9
+      ],
+      [
+       "wine",
+       3
+      ],
+      [
+       "bread",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "keep_table"
+    },
+    {
+     "inventory": [
+      [
+       "nightweave_cloak",
+       1
+      ],
+      [
+       "duskwalker_boots",
+       1
+      ],
+      [
+       "coins",
+       400
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_strongbox"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       260
+      ],
+      [
+       "tithe_ledger",
+       1
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_tithe"
+    },
+    {
+     "inventory": [
+      [
+       "steel_sword",
+       1
+      ],
+      [
+       "plate_cuirass",
+       1
+      ],
+      [
+       "coins",
+       60
+      ]
+     ],
+     "locked": true,
+     "name": "greyhold_armoury"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       23
+      ],
+      [
+       "prayer_beads",
+       1
+      ]
+     ],
+     "locked": false,
+     "name": "shrine_offerings"
+    },
+    {
+     "inventory": [
+      [
+       "coins",
+       12
+      ]
+     ],
+     "locked": false,
+     "name": "shrine_pilgrim"
+    }
+   ],
+   "doors": [
+    {
+     "id": "smithy_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "keeper_room_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_1_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_2_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "inn_room_3_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "shop_door",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "tailor_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "granary_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "guardhouse_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "tower_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ashgrove_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "vane_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ashgrove_servant_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "vane_servant_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "home_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "tamsin_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hideout_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "fenwick_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "couple_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "pell_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "jail_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "gate_lodge_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "cell_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "town_gate_west",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "town_gate_east",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "vestry_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "chapel_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "bertram_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "nessa_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "bakery_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "cooper_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "griselda_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "ludo_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "pike_door",
+     "locked": false,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "dunstan_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "mott_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "jeb_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "odo_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "marta_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "haskel_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hunter_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "hrolf_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "deep_vault_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "keep_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    },
+    {
+     "id": "greyhold_gate_north",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "greyhold_gate_south",
+     "locked": false,
+     "open": true,
+     "sealed": false
+    },
+    {
+     "id": "treasury_door",
+     "locked": true,
+     "open": false,
+     "sealed": false
+    }
+   ],
+   "equipment": {
+    "cursor": 0,
+    "open": false,
+    "worn": {
+     "feet": "soft_shoes"
+    }
+   },
+   "fade": 0.0,
+   "frame": 12,
+   "frozen": false,
+   "hour": 10,
+   "jail": {
+    "escaped": false,
+    "grace_until": 0.0,
+    "released": false,
+    "sentence_end_day": null
+   },
+   "lockpick": {
+    "angle": 0.0,
+    "sweet_spot": 45.0,
+    "target": null
+   },
+   "messages": [
+    "Dorran is hauling crates for Barnaby.",
+    "Mirelle opened the tailor's shop.",
+    "Fenwick has his usual seat at the Drowsy Dragon.",
+    "Lady Ashgrove is sneering at Barnaby's wares.",
+    "Greaves is buying for the Vane household, very particularly.",
+    "Time Update: 10:00 hours"
+   ],
+   "minute_accumulator": 0.36,
+   "mode": "explore",
+   "mouse_captured": true,
+   "moving": false,
+   "npcs": [
+    {
+     "crimes": 0,
+     "gold": 400.0,
+     "inventory": [
+      [
+       "shop_key",
+       1
+      ],
+      [
+       "home_key",
+       1
+      ],
+      [
+       "bread",
+       4
+      ],
+      [
+       "apple_1",
+       6
+      ],
+      [
+       "torch_item",
+       1
+      ]
+     ],
+     "name": "Shopkeeper Barnaby",
+     "pos": [
+      -13.0,
+      2.43692,
+      -12.2
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 250.0,
+     "inventory": [
+      [
+       "inn_door_key",
+       1
+      ],
+      [
+       "keeper_room_door_key",
+       1
+      ],
+      [
+       "inn_room_1_door_key",
+       1
+      ],
+      [
+       "inn_room_2_door_key",
+       1
+      ],
+      [
+       "inn_room_3_door_key",
+       1
+      ],
+      [
+       "rent_night",
+       1
+      ],
+      [
+       "rent_week",
+       1
+      ],
+      [
+       "candle_stub",
+       6
+      ],
+      [
+       "soap",
+       3
+      ]
+     ],
+     "name": "Hilde the Innkeeper",
+     "pos": [
+      -35.83131,
+      1.99029,
+      -12.83749
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 350.0,
+     "inventory": [
+      [
+       "smithy_door_key",
+       1
+      ],
+      [
+       "hammer",
+       1
+      ],
+      [
+       "mallet",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ]
+     ],
+     "name": "Gareth the Smith",
+     "pos": [
+      -62.0,
+      1.86598,
+      -7.8
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 300.0,
+     "inventory": [
+      [
+       "tailor_door_key",
+       1
+      ],
+      [
+       "thimble",
+       1
+      ]
+     ],
+     "name": "Mirelle the Tailor",
+     "pos": [
+      11.5,
+      2.43692,
+      -11.1
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 600.0,
+     "inventory": [
+      [
+       "hideout_door_key",
+       1
+      ],
+      [
+       "lockpick_pack",
+       3
+      ],
+      [
+       "gold_ring",
+       1
+      ],
+      [
+       "black_hood",
+       1
+      ],
+      [
+       "dried_meat",
+       4
+      ]
+     ],
+     "name": "Jae the Fence",
+     "pos": [
+      -10.0,
+      2.43692,
+      12.0
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "tamsin_door_key",
+       1
+      ],
+      [
+       "locket",
+       1
+      ]
+     ],
+     "name": "Tamsin",
+     "pos": [
+      -60.04955,
+      1.74786,
+      1.70386
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "fenwick_door_key",
+       1
+      ],
+      [
+       "pipe",
+       1
+      ]
+     ],
+     "name": "Fenwick",
+     "pos": [
+      -26.1,
+      1.99029,
+      -11.0
+     ],
+     "state": "DRINKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "couple_door_key",
+       1
+      ],
+      [
+       "ladle",
+       1
+      ]
+     ],
+     "name": "Lys",
+     "pos": [
+      -35.9,
+      1.99029,
+      -14.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "couple_door_key",
+       1
+      ],
+      [
+       "whetstone",
+       1
+      ]
+     ],
+     "name": "Dorran",
+     "pos": [
+      -8.0,
+      2.43692,
+      -9.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "pell_door_key",
+       1
+      ],
+      [
+       "sling",
+       1
+      ]
+     ],
+     "name": "Pell",
+     "pos": [
+      6.43805,
+      2.43692,
+      -2.65238
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "vane_door_key",
+       1
+      ],
+      [
+       "vane_strongbox_key",
+       1
+      ],
+      [
+       "gold_snuffbox",
+       1
+      ]
+     ],
+     "name": "Lord Aurelian Vane",
+     "pos": [
+      18.18604,
+      7.11096,
+      -39.79734
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "ashgrove_door_key",
+       1
+      ],
+      [
+       "ashgrove_strongbox_key",
+       1
+      ],
+      [
+       "pearl_earrings",
+       1
+      ]
+     ],
+     "name": "Lady Seraphine Ashgrove",
+     "pos": [
+      -13.06374,
+      2.43692,
+      -8.23938
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 5
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "vane_door_key",
+       1
+      ],
+      [
+       "vane_servant_door_key",
+       1
+      ]
+     ],
+     "name": "Greaves",
+     "pos": [
+      -12.88311,
+      2.43692,
+      -6.92717
+     ],
+     "state": "SHOPPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "ashgrove_door_key",
+       1
+      ],
+      [
+       "ashgrove_servant_door_key",
+       1
+      ]
+     ],
+     "name": "Ottilie",
+     "pos": [
+      -43.21813,
+      1.24197,
+      19.87942
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 3
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Captain Vance",
+     "pos": [
+      -53.03502,
+      1.98992,
+      3.45041
+     ],
+     "state": "PATROL",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Aldric",
+     "pos": [
+      52.5,
+      21.94799,
+      -55.8
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Orrin",
+     "pos": [
+      53.5,
+      8.68676,
+      -40.5
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "tower_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Mira",
+     "pos": [
+      43.55,
+      8.94799,
+      -48.2
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "gate_lodge_door_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Bram",
+     "pos": [
+      6.2,
+      0.68741,
+      49.8
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "gate_lodge_door_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Guard Wenna",
+     "pos": [
+      13.45,
+      0.68741,
+      50.5
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 15.0,
+     "inventory": [
+      [
+       "guard_key",
+       1
+      ],
+      [
+       "cell_key",
+       1
+      ],
+      [
+       "ration",
+       2
+      ]
+     ],
+     "name": "Jailer Hesk",
+     "pos": [
+      50.8,
+      2.10362,
+      10.5
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "chapel_door_key",
+       1
+      ],
+      [
+       "vestry_door_key",
+       1
+      ],
+      [
+       "rosary",
+       1
+      ]
+     ],
+     "name": "Sister Maude",
+     "pos": [
+      -34.75,
+      0.84615,
+      36.67859
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 5
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "bertram_door_key",
+       1
+      ],
+      [
+       "hand_bell",
+       1
+      ]
+     ],
+     "name": "Old Bertram",
+     "pos": [
+      -9.0,
+      0.68741,
+      50.7
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "nessa_door_key",
+       1
+      ],
+      [
+       "washboard",
+       1
+      ]
+     ],
+     "name": "Nessa",
+     "pos": [
+      -47.6,
+      1.08933,
+      28.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 180.0,
+     "inventory": [
+      [
+       "bakery_door_key",
+       1
+      ],
+      [
+       "bread",
+       4
+      ]
+     ],
+     "name": "Wynn the Baker",
+     "pos": [
+      38.4,
+      1.91223,
+      10.1
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "cooper_door_key",
+       1
+      ]
+     ],
+     "name": "Corwin the Cooper",
+     "pos": [
+      56.0,
+      4.45853,
+      -14.9
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "bread_parcel",
+       3
+      ]
+     ],
+     "name": "Hobb",
+     "pos": [
+      14.5,
+      0.68741,
+      37.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 140.0,
+     "inventory": [
+      [
+       "griselda_door_key",
+       1
+      ]
+     ],
+     "name": "Griselda the Herbwife",
+     "pos": [
+      -28.25,
+      3.33205,
+      -30.1
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 220.0,
+     "inventory": [
+      [
+       "ludo_door_key",
+       1
+      ]
+     ],
+     "name": "Ludo the Locksmith",
+     "pos": [
+      -14.25,
+      4.00216,
+      -30.1
+     ],
+     "state": "SHOPKEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 90.0,
+     "inventory": [
+      [
+       "pike_door_key",
+       1
+      ],
+      [
+       "pike_tithe_chest_key",
+       1
+      ]
+     ],
+     "name": "Reeve Osric Pike",
+     "pos": [
+      11.0,
+      5.14354,
+      -31.7
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 24.0,
+     "inventory": [
+      [
+       "dunstan_door_key",
+       1
+      ],
+      [
+       "lute",
+       1
+      ]
+     ],
+     "name": "Dunstan the Minstrel",
+     "pos": [
+      26.45,
+      6.12139,
+      -27.6
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "mott_door_key",
+       1
+      ]
+     ],
+     "name": "Mott the Tanner",
+     "pos": [
+      65.0,
+      0.47709,
+      40.4
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [
+      [
+       "jeb_door_key",
+       1
+      ],
+      [
+       "taper_pole",
+       1
+      ]
+     ],
+     "name": "Jeb the Lamplighter",
+     "pos": [
+      51.45,
+      0.815,
+      32.4
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "odo_door_key",
+       1
+      ]
+     ],
+     "name": "Odo the Farmer",
+     "pos": [
+      13.48327,
+      0.11299,
+      110.59331
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "marta_door_key",
+       1
+      ]
+     ],
+     "name": "Marta",
+     "pos": [
+      -25.10174,
+      0.3332,
+      94.93251
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 3
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [
+      [
+       "haskel_door_key",
+       1
+      ]
+     ],
+     "name": "Haskel the Woodcutter",
+     "pos": [
+      -46.0,
+      0.55075,
+      84.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 40.0,
+     "inventory": [
+      [
+       "hunter_door_key",
+       1
+      ],
+      [
+       "hunting_knife",
+       1
+      ]
+     ],
+     "name": "Ysolde the Hunter",
+     "pos": [
+      -142.88699,
+      1.61728,
+      68.06009
+     ],
+     "state": "STROLLING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 2
+    },
+    {
+     "crimes": 0,
+     "gold": 260.0,
+     "inventory": [
+      [
+       "hrolf_door_key",
+       1
+      ],
+      [
+       "hammer",
+       1
+      ],
+      [
+       "pickaxe",
+       1
+      ]
+     ],
+     "name": "Hrolf the Hermit Smith",
+     "pos": [
+      -147.6,
+      2.27447,
+      27.6
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 180.0,
+     "inventory": [
+      [
+       "deep_vault_door_key",
+       1
+      ],
+      [
+       "gold_crown",
+       1
+      ]
+     ],
+     "name": "Grimmaw the Bandit King",
+     "pos": [
+      -151.0,
+      0.29,
+      -115.3
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 30.0,
+     "inventory": [],
+     "name": "Vey the Cutthroat",
+     "pos": [
+      -146.85081,
+      0.29,
+      -98.61703
+     ],
+     "state": "TRAVELING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 3
+    },
+    {
+     "crimes": 0,
+     "gold": 26.0,
+     "inventory": [],
+     "name": "Sable the Archer",
+     "pos": [
+      -184.5,
+      0.29,
+      -92.8
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 18.0,
+     "inventory": [],
+     "name": "Gutter",
+     "pos": [
+      -158.0,
+      0.29,
+      -85.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 40.0,
+     "inventory": [],
+     "name": "Ned Two-Fingers",
+     "pos": [
+      -140.4,
+      0.29,
+      -88.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 12.0,
+     "inventory": [],
+     "name": "Old Crake",
+     "pos": [
+      -124.8,
+      0.29,
+      -91.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": true,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 45.0,
+     "inventory": [
+      [
+       "smugglers_key",
+       1
+      ],
+      [
+       "brandy",
+       1
+      ]
+     ],
+     "name": "Kell the Smuggler",
+     "pos": [
+      101.0,
+      0.86,
+      14.5
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 35.0,
+     "inventory": [],
+     "name": "Rusk the Smuggler",
+     "pos": [
+      116.5,
+      0.86,
+      20.0
+     ],
+     "state": "GUARDING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 20.0,
+     "inventory": [],
+     "name": "Maggs",
+     "pos": [
+      132.0,
+      -0.17,
+      32.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 8.0,
+     "inventory": [],
+     "name": "Finch",
+     "pos": [
+      108.6,
+      0.86,
+      12.1
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 16.0,
+     "inventory": [],
+     "name": "Old Brannoc",
+     "pos": [
+      132.0,
+      -0.1745,
+      33.2
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 60.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ],
+      [
+       "treasury_door_key",
+       1
+      ]
+     ],
+     "name": "Ser Caddock",
+     "pos": [
+      77.97815,
+      2.90253,
+      102.03246
+     ],
+     "state": "PATROL",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 1
+    },
+    {
+     "crimes": 0,
+     "gold": 55.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Dame Ilsa",
+     "pos": [
+      87.55,
+      4.30876,
+      109.2
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 50.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Ser Aldwin",
+     "pos": [
+      87.55,
+      4.30876,
+      111.8
+     ],
+     "state": "SLEEPING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    },
+    {
+     "crimes": 0,
+     "gold": 6.0,
+     "inventory": [
+      [
+       "keep_door_key",
+       1
+      ]
+     ],
+     "name": "Tobin the Squire",
+     "pos": [
+      104.2,
+      4.30876,
+      108.0
+     ],
+     "state": "WORKING",
+     "suspicion": 0.0,
+     "torch": false,
+     "waypoints": 0
+    }
+   ],
+   "player": {
+    "crimes_witnessed": 0,
+    "crouch": false,
+    "eye": 1.55,
+    "gold": 60.0,
+    "inventory": [
+     [
+      "iron_lockpick",
+      1,
+      false
+     ],
+     [
+      "soft_shoes",
+      1,
+      false
+     ],
+     [
+      "silver_goblet",
+      1,
+      true
+     ]
+    ],
+    "pitch": 0.0,
+    "pos": [
+     -4.5,
+     2.43692,
+     4.0
+    ],
+    "skills": {
+     "Barter": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Lockpicking": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Pickpocket": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Smithing": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Sneak": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     },
+     "Stealing": {
+      "level": 1,
+      "xp": 0.0,
+      "xp_needed": 80.0
+     }
+    },
+    "torch": false,
+    "yaw": 0.0
+   },
+   "prompt": null,
+   "running": true,
+   "sprinting": false,
+   "transfer": null,
+   "tutorial": null
+  }
+ },
+ "digest": "4a7369892e68437bfba0409c48dd11ff6e13c23b706567a6fe039d04e4b592f5",
+ "final_messages": [
+  "Dorran is hauling crates for Barnaby.",
+  "Mirelle opened the tailor's shop.",
+  "Fenwick has his usual seat at the Drowsy Dragon.",
+  "Lady Ashgrove is sneering at Barnaby's wares.",
+  "Greaves is buying for the Vane household, very particularly.",
+  "Time Update: 10:00 hours"
+ ],
+ "frames": 9,
+ "scenario": "wait_key"
+}

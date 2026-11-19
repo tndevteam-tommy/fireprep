@@ -1,0 +1,445 @@
+{
+ "name": "02_bow_drill_primitive_fire",
+ "description": "DESIGN 3.1 / 3.3: carve notch, bow drill (mouse sawing), ember, tinder nest, breathing.",
+ "settings": {
+  "width": 1280,
+  "height": 720,
+  "seed": 7,
+  "start_hour": 18.5,
+  "fixed_dt": 0.0333,
+  "preset": "Medium",
+  "render_stride": 30,
+  "no_tutorial": true
+ },
+ "steps": [
+  {
+   "log": "Primitive fire: carve a V-notch, bow-drill an ember, nest it in tinder and breathe it into flame"
+  },
+  {
+   "wait": 0.4
+  },
+  {
+   "walk_to": {
+    "item": "Birch bark curls"
+   },
+   "stop": 1.35,
+   "timeout": 12
+  },
+  {
+   "aim_at": {
+    "item": "Birch bark curls"
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "walk_to": {
+    "item": "Bundle of dead pine twigs"
+   },
+   "stop": 1.3,
+   "timeout": 12
+  },
+  {
+   "aim_at": {
+    "item": "Bundle of dead pine twigs"
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "walk_to": {
+    "pit": [
+     0,
+     0,
+     0
+    ]
+   },
+   "stop": 1.25,
+   "timeout": 12
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.128,
+     0.0,
+     0.023
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.018,
+     0.0,
+     0.129
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     -0.117,
+     0.0,
+     0.057
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     -0.09,
+     0.0,
+     -0.094
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.061,
+     0.0,
+     -0.115
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "wait": 0.6
+  },
+  {
+   "assert": "sum(1 for b in grid.bodies if b.geometry_type == 'kindling' and b.orientation[0] > 40) >= 5",
+   "message": "kindling teepee stands without tinder (ends pushed into the soil)"
+  },
+  {
+   "walk_to": {
+    "hearthboard": true
+   },
+   "stop": 0.85,
+   "timeout": 12
+  },
+  {
+   "key": "2"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "wait": 0.4
+  },
+  {
+   "aim_at": {
+    "hearthboard": true
+   }
+  },
+  {
+   "assert": "world.target is not None and world.target['kind'] == 'hearthboard'",
+   "message": "aiming at the hearthboard"
+  },
+  {
+   "assert": "not world.crafting.bow_drill.has_v_notch",
+   "message": "board starts without a notch"
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "assert": "world.crafting.bow_drill.has_v_notch",
+   "message": "knife carved a 45-degree V-notch"
+  },
+  {
+   "expect_sound": "whittle"
+  },
+  {
+   "key": "4"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "aim_at": {
+    "hearthboard": true
+   }
+  },
+  {
+   "mouse_down": "left"
+  },
+  {
+   "mouse_down": "right"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.bow_active",
+   "message": "bow drill engaged"
+  },
+  {
+   "saw": {
+    "duration": 14,
+    "amplitude": 150,
+    "rate": 1.4
+   }
+  },
+  {
+   "assert": "world.crafting.bow_drill.socket_temp >= 99",
+   "message": "friction heats the socket to the drying plateau",
+   "value": "round(world.crafting.bow_drill.socket_temp)"
+  },
+  {
+   "saw": {
+    "duration": 22,
+    "amplitude": 150,
+    "rate": 1.4
+   }
+  },
+  {
+   "assert": "world.crafting.bow_drill.is_smoking",
+   "message": "the socket smokes (> 200 C)",
+   "value": "round(world.crafting.bow_drill.socket_temp)"
+  },
+  {
+   "screenshot": "01_bow_drilling_smoke"
+  },
+  {
+   "saw": {
+    "duration": 55,
+    "amplitude": 150,
+    "rate": 1.4
+   }
+  },
+  {
+   "wait_until": "world.crafting.bow_drill.has_ember",
+   "timeout": 5,
+   "message": "an ember forms in the notch"
+  },
+  {
+   "assert": "player.stamina < 60",
+   "message": "bow drilling is hard work (stamina spent)",
+   "value": "round(player.stamina)"
+  },
+  {
+   "expect_sound": "friction_squeak"
+  },
+  {
+   "screenshot": "02_ember_in_notch"
+  },
+  {
+   "mouse_up": "left"
+  },
+  {
+   "mouse_up": "right"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "assert": "world.crafting.active_tinder_nest is not None and world.crafting.active_tinder_nest.has_ember",
+   "message": "ember tipped into the tinder nest"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "screenshot": "03_nest_with_ember"
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "key": "f",
+   "hold": 0.5
+  },
+  {
+   "wait": 0.9
+  },
+  {
+   "wait_until": "grid.flame_hrr > 400",
+   "timeout": 8,
+   "message": "breathing the nest into flame lights the teepee"
+  },
+  {
+   "assert": "world.crafting.active_tinder_nest is None",
+   "message": "the flaming nest was tucked into the fire lay"
+  },
+  {
+   "assert": "any(b.geometry_type == 'tinder' for b in grid.bodies)",
+   "message": "burning nest now sits in the pit"
+  },
+  {
+   "expect_sound": "breath"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0.2,
+     0.0
+    ]
+   }
+  },
+  {
+   "wait": 2.0
+  },
+  {
+   "screenshot": "04_friction_fire_flames"
+  },
+  {
+   "wait_until": "sum(1 for b in grid.bodies if b.geometry_type == 'kindling' and b.is_flaming) >= 2",
+   "timeout": 45,
+   "message": "the kindling catches"
+  },
+  {
+   "assert": "world.stats['embers_made'] >= 1 and world.inventory.lighter_starts == 4",
+   "message": "fire made by friction alone - the lighter was never used"
+  }
+ ]
+}

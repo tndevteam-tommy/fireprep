@@ -1,0 +1,382 @@
+{
+ "name": "05_atmosphere_showcase",
+ "description": "Visual showcase: golden hour, noon, mist, dusk, night & stars, rain, autumn, winter snow, spring, creek.",
+ "settings": {
+  "width": 1280,
+  "height": 720,
+  "seed": 7,
+  "start_hour": 18.5,
+  "fixed_dt": 0.0333,
+  "preset": "High",
+  "render_stride": 60,
+  "no_tutorial": true,
+  "no_audio": true
+ },
+ "steps": [
+  {
+   "log": "Atmosphere showcase (staged): the same camp across the day, the weather and the seasons"
+  },
+  {
+   "exec": "from firestarter.automation.staging import build_log_fire; build_log_fire(world)  # staged fire lay"
+  },
+  {
+   "fast_forward": 90
+  },
+  {
+   "weather": {
+    "clear": true
+   }
+  },
+  {
+   "set_time": {
+    "hour": 18.8
+   }
+  },
+  {
+   "teleport": [
+    2.6,
+    2.9
+   ],
+   "look_at": [
+    0.0,
+    0.45,
+    0.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "01_golden_hour"
+  },
+  {
+   "set_time": {
+    "hour": 12.5
+   }
+  },
+  {
+   "teleport": [
+    4.8,
+    5.6
+   ],
+   "look_at": [
+    -1.0,
+    1.2,
+    -4.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "02_noon_clearing"
+  },
+  {
+   "set_time": {
+    "hour": 6.1
+   }
+  },
+  {
+   "weather": {
+    "fog": 0.75
+   }
+  },
+  {
+   "teleport": [
+    3.0,
+    4.5
+   ],
+   "look_at": [
+    -2.0,
+    1.2,
+    -6.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "03_morning_mist"
+  },
+  {
+   "weather": {
+    "fog": 0.0
+   }
+  },
+  {
+   "set_time": {
+    "hour": 19.85
+   }
+  },
+  {
+   "teleport": [
+    1.5,
+    1.5
+   ],
+   "look_at": [
+    -30.0,
+    7.0,
+    -14.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "04_dusk_sunset_sky"
+  },
+  {
+   "set_time": {
+    "hour": 22.4
+   }
+  },
+  {
+   "teleport": [
+    2.0,
+    2.3
+   ],
+   "look_at": [
+    0.0,
+    0.4,
+    0.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "05_night_campfire"
+  },
+  {
+   "screenshot": "05b_flicker_a"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "screenshot": "05b_flicker_b"
+  },
+  {
+   "set_time": {
+    "hour": 23.5
+   }
+  },
+  {
+   "teleport": [
+    1.0,
+    2.0
+   ],
+   "look_at": [
+    -5.0,
+    16.0,
+    -20.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "06_night_stars"
+  },
+  {
+   "weather": {
+    "fog": 0.0
+   }
+  },
+  {
+   "set_time": {
+    "hour": 21.6
+   }
+  },
+  {
+   "weather": {
+    "rain": 0.85
+   }
+  },
+  {
+   "wait": 1.5
+  },
+  {
+   "teleport": [
+    2.3,
+    2.6
+   ],
+   "look_at": [
+    0.0,
+    0.5,
+    0.0
+   ]
+  },
+  {
+   "wait": 1.0
+  },
+  {
+   "screenshot": "07_rain_at_night"
+  },
+  {
+   "assert": "weather.rain_intensity > 0.5",
+   "message": "heavy rain falling"
+  },
+  {
+   "assert": "grid.is_burning",
+   "message": "the established fire survives the rain"
+  },
+  {
+   "weather": {
+    "rain": 0.0,
+    "cloud": 0.3
+   }
+  },
+  {
+   "set_time": {
+    "hour": 15.0,
+    "season": "Autumn",
+    "day": 20
+   }
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "teleport": [
+    5.0,
+    6.0
+   ],
+   "look_at": [
+    -3.0,
+    3.0,
+    -8.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "08_autumn_colours"
+  },
+  {
+   "set_time": {
+    "hour": 11.5,
+    "season": "Winter",
+    "day": 30
+   }
+  },
+  {
+   "exec": "weather.snow_accumulation_m = 0.35"
+  },
+  {
+   "weather": {
+    "cloud": 0.6
+   }
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "teleport": [
+    4.0,
+    5.0
+   ],
+   "look_at": [
+    -2.0,
+    1.0,
+    -5.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "09_winter_snow_day"
+  },
+  {
+   "set_time": {
+    "hour": 19.0,
+    "season": "Winter",
+    "day": 30
+   }
+  },
+  {
+   "weather": {
+    "rain": 0.7
+   }
+  },
+  {
+   "wait": 1.0
+  },
+  {
+   "assert": "weather.snow_intensity > 0.3 and weather.rain_intensity == 0",
+   "message": "precipitation falls as snow below freezing"
+  },
+  {
+   "teleport": [
+    2.2,
+    2.5
+   ],
+   "look_at": [
+    0.0,
+    0.5,
+    0.0
+   ]
+  },
+  {
+   "wait": 1.0
+  },
+  {
+   "screenshot": "10_winter_night_fire_snowfall"
+  },
+  {
+   "weather": {
+    "rain": 0.0,
+    "cloud": 0.2
+   }
+  },
+  {
+   "set_time": {
+    "hour": 10.0,
+    "season": "Spring",
+    "day": 15
+   }
+  },
+  {
+   "exec": "weather.snow_accumulation_m = 0.0"
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "teleport": [
+    -3.0,
+    8.0
+   ],
+   "look_at": [
+    2.0,
+    2.0,
+    -6.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "11_spring_morning"
+  },
+  {
+   "teleport": [
+    0.0,
+    -31.0
+   ],
+   "look_at": [
+    10.0,
+    -2.5,
+    -40.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "12_creek"
+  }
+ ]
+}

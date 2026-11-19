@@ -1,0 +1,386 @@
+{
+ "name": "04_ui_menus",
+ "description": "Help, Field Compendium, blueprint holograms, smartphone Home/Store/Topo Map, time menu, pause & settings.",
+ "settings": {
+  "width": 1280,
+  "height": 720,
+  "seed": 7,
+  "start_hour": 18.5,
+  "fixed_dt": 0.0333,
+  "preset": "High",
+  "render_stride": 40,
+  "no_tutorial": true
+ },
+ "steps": [
+  {
+   "log": "UI: help overlay, Field Compendium (pin a blueprint -> hologram snapping), smartphone apps, time menu, pause settings"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "key": "h"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "screenshot": "01_help_overlay"
+  },
+  {
+   "assert": "input.show_help",
+   "message": "H shows the controls overlay"
+  },
+  {
+   "key": "h"
+  },
+  {
+   "key": "b"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "assert": "book.is_open and book.current_page == 0",
+   "message": "B opens the Field Compendium"
+  },
+  {
+   "screenshot": "02_book_combustion"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "screenshot": "03_book_species"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "book.get_current_page_data()['key'] == 'teepee'",
+   "message": "paged forward to the Teepee blueprint"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "book.selected_blueprint_key == 'teepee'",
+   "message": "Enter pins the Teepee as a holographic guide"
+  },
+  {
+   "screenshot": "04_book_teepee_pinned"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "book.get_current_page_data()['locked']",
+   "message": "advanced blueprints start locked"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "book.selected_blueprint_key == 'teepee'",
+   "message": "a locked blueprint cannot be pinned"
+  },
+  {
+   "screenshot": "05_book_locked_lean_to"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "screenshot": "06_book_seasoning_chart"
+  },
+  {
+   "key": "b"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "not book.is_open",
+   "message": "B closes the book"
+  },
+  {
+   "walk_to": {
+    "item": "Bundle of dead pine twigs"
+   },
+   "stop": 1.3,
+   "timeout": 12
+  },
+  {
+   "aim_at": {
+    "item": "Bundle of dead pine twigs"
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "walk_to": {
+    "pit": [
+     0,
+     0,
+     0
+    ]
+   },
+   "stop": 1.3,
+   "timeout": 12
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.12,
+     0.0,
+     0.02
+    ]
+   }
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.ghost is not None and world.ghost['slot'] is not None",
+   "message": "the kindling ghost snaps to a blueprint slot",
+   "value": "world.ghost and world.ghost['slot']"
+  },
+  {
+   "screenshot": "07_blueprint_hologram"
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "key": "tab"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "screenshot": "08_phone_home"
+  },
+  {
+   "key": "right"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "assert": "phone.active_app.value == 'Topographical Map'",
+   "message": "opened the Topo Map app"
+  },
+  {
+   "screenshot": "09_phone_topo_map"
+  },
+  {
+   "key": "w"
+  },
+  {
+   "key": "w"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "phone.map_zoom > 1.4",
+   "message": "W zooms the map in",
+   "value": "phone.map_zoom"
+  },
+  {
+   "screenshot": "10_phone_topo_zoomed"
+  },
+  {
+   "key": "backspace"
+  },
+  {
+   "key": "left"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "phone.active_app.value == 'Store ($)'",
+   "message": "back home, then into the Store"
+  },
+  {
+   "exec": "scratch['cr'] = phone.credits.credits"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "phone.credits.credits == scratch['cr'] and 'Insufficient' in phone.status_message",
+   "message": "cannot buy a lighter refill with 20 credits",
+   "value": "phone.status_message"
+  },
+  {
+   "expect_sound": "ui_error"
+  },
+  {
+   "screenshot": "11_phone_store"
+  },
+  {
+   "key": "tab"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "exec": "scratch['clock'] = weather.total_hours"
+  },
+  {
+   "key": "t"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "screenshot": "12_time_menu"
+  },
+  {
+   "key": "escape"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "not world.time_engine.is_menu_open and weather.total_hours - scratch['clock'] < 0.01",
+   "message": "Esc cancels the time menu without skipping"
+  },
+  {
+   "key": "escape"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "input.is_paused",
+   "message": "Esc pauses the game"
+  },
+  {
+   "exec": "scratch['t_sim'] = world.sim_time"
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "assert": "abs(world.sim_time - scratch['t_sim']) < 1e-6",
+   "message": "the simulation is frozen while paused"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "assert": "abs(input.settings.master_volume - 1.0) < 1e-6",
+   "message": "D raises the master volume",
+   "value": "input.settings.master_volume"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "a"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "input.settings.graphics_preset == 'Medium'",
+   "message": "A steps the graphics preset down"
+  },
+  {
+   "screenshot": "13_pause_settings"
+  },
+  {
+   "assert": "renderer.preset_name == 'Medium'",
+   "message": "the renderer applied the new preset"
+  },
+  {
+   "key": "escape"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "not input.is_paused",
+   "message": "Esc resumes"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cyberduke"
+version = "0.2.0"
+description = "Cyberduke: Tactical Infiltration - a retro low-poly 3D stealth game (Pygame + OpenGL)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE.md" }
+dependencies = [
+    "pygame>=2.5",
+    "PyOpenGL>=3.1.7",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+toml = [
+    "tomli_w>=1.0",               # writing .toml level files (reading is built in on 3.11+)
+    "tomli>=2.0; python_version < '3.11'",
+]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+    "tomli_w>=1.0",
+    "tomli>=2.0; python_version < '3.11'",
+]
+
+[project.scripts]
+cyberduke = "cyberduke.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # bugbear
+    "UP",  # pyupgrade
+    "N",   # pep8-naming
+    "SIM", # simplify
+]
+ignore = [
+    "F403", # star imports (OpenGL.GL idiom, confined to render modules)
+    "F405", # names from star imports
+    "E741", # ambiguous variable names like `l` (used for left/right pairs)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["N802", "N806"]
+# Level files are tabular data: one prop per line is far more readable than one field per line
+"src/cyberduke/levels/*" = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+exclude = ["src/cyberduke/levels/*.py"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -ra"
+pythonpath = ["src"]

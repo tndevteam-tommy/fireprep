@@ -1,0 +1,380 @@
+{
+ "name": "07_movement_controls",
+ "description": "README controls table: movement, sprint, crouch, collision, look, placement rotation / tilt, tool and off-hand slots.",
+ "settings": {
+  "width": 1280,
+  "height": 720,
+  "seed": 7,
+  "start_hour": 18.5,
+  "fixed_dt": 0.0333,
+  "preset": "Medium",
+  "render_stride": 60,
+  "no_tutorial": true,
+  "no_audio": true
+ },
+ "steps": [
+  {
+   "log": "Movement & controls: WASD, sprint, crouch, collisions, mouse look, placement rotation/tilt, off-hand cycling"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "mouse_move": [
+    600,
+    0
+   ],
+   "duration": 0.3
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "exec": "scratch['p0'] = player.position.copy(); scratch['yaw0'] = player.yaw"
+  },
+  {
+   "key": "w",
+   "hold": 1.5
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "np.linalg.norm(player.position[[0,2]] - scratch['p0'][[0,2]]) > 2.5",
+   "message": "W walks forward",
+   "value": "round(float(np.linalg.norm(player.position[[0,2]] - scratch['p0'][[0,2]])), 2)"
+  },
+  {
+   "assert": "np.linalg.norm(player.position[[0,2]] - world.fire_pit_pos[[0,2]]) > 0.7",
+   "message": "the stone ring blocks walking into the fire"
+  },
+  {
+   "key": "s",
+   "hold": 1.0
+  },
+  {
+   "key": "a",
+   "hold": 0.8
+  },
+  {
+   "key": "d",
+   "hold": 0.8
+  },
+  {
+   "exec": "scratch['st'] = player.stamina"
+  },
+  {
+   "key_down": "left shift"
+  },
+  {
+   "key_down": "w"
+  },
+  {
+   "wait": 2.0
+  },
+  {
+   "key_up": "w"
+  },
+  {
+   "key_up": "left shift"
+  },
+  {
+   "assert": "player.stamina < scratch['st'] - 15",
+   "message": "sprinting drains stamina",
+   "value": "round(player.stamina)"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "wait": 0.6
+  },
+  {
+   "assert": "player.eye_height < 1.2 and player.is_crouching",
+   "message": "Ctrl toggles crouching on (no need to hold it)",
+   "value": "round(player.eye_height, 2)"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "wait": 0.6
+  },
+  {
+   "assert": "player.eye_height > 1.5 and not player.is_crouching",
+   "message": "pressing Ctrl again stands up"
+  },
+  {
+   "mouse_move": [
+    300,
+    0
+   ],
+   "duration": 0.3
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "abs(((player.yaw - scratch['yaw0'] + 180) % 360) - 180) > 20",
+   "message": "mouse look turns the view",
+   "value": "round(player.yaw, 1)"
+  },
+  {
+   "teleport": [
+    9.5,
+    -9.0
+   ],
+   "look_at": [
+    7.4,
+    1.0,
+    -8.6
+   ]
+  },
+  {
+   "key": "w",
+   "hold": 2.0
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "np.linalg.norm(player.position[[0,2]] - np.array([7.4, -8.6])) > 0.3",
+   "message": "tree trunks block the player"
+  },
+  {
+   "walk_to": {
+    "item": "Bundle of dead pine twigs"
+   },
+   "stop": 1.3,
+   "timeout": 14
+  },
+  {
+   "aim_at": {
+    "item": "Bundle of dead pine twigs"
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "walk_to": {
+    "pit": [
+     0,
+     0,
+     0
+    ]
+   },
+   "stop": 1.3,
+   "timeout": 12
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.15,
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "exec": "scratch['g0'] = world.ghost['orientation'].copy()"
+  },
+  {
+   "assert": "scratch['g0'][0] > 40",
+   "message": "kindling defaults to a teepee lean"
+  },
+  {
+   "key_down": "left shift"
+  },
+  {
+   "click": "wheel_down"
+  },
+  {
+   "click": "wheel_down"
+  },
+  {
+   "click": "wheel_down"
+  },
+  {
+   "click": "wheel_down"
+  },
+  {
+   "key_up": "left shift"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "world.ghost['orientation'][0] < 5",
+   "message": "Shift+Wheel tilts the piece flat",
+   "value": "world.ghost['orientation'][0]"
+  },
+  {
+   "exec": "scratch['y0'] = world.ghost['orientation'][1]"
+  },
+  {
+   "click": "wheel_up"
+  },
+  {
+   "click": "wheel_up"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "abs(((world.ghost['orientation'][1] - scratch['y0'] + 180) % 360) - 180 - 30) < 1",
+   "message": "Wheel rotates the piece 15 degrees per notch"
+  },
+  {
+   "click": "middle"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "player.held_item_tilt is None and player.held_item_rotation == 0",
+   "message": "MMB resets placement"
+  },
+  {
+   "exec": "scratch['off'] = world.current_offhand()"
+  },
+  {
+   "key": "e"
+  },
+  {
+   "assert": "world.current_offhand() != scratch['off']",
+   "message": "E cycles the off-hand item"
+  },
+  {
+   "key": "q"
+  },
+  {
+   "assert": "world.current_offhand() == scratch['off']",
+   "message": "Q cycles back"
+  },
+  {
+   "key": "0"
+  },
+  {
+   "assert": "world.current_offhand() == 'fungus'",
+   "message": "0 selects the fungus slot"
+  },
+  {
+   "key": "3"
+  },
+  {
+   "assert": "player.primary_hand == 'felling_axe'",
+   "message": "3 equips the axe"
+  },
+  {
+   "screenshot": "01_axe_in_hand"
+  },
+  {
+   "key": "2"
+  },
+  {
+   "screenshot": "02_knife_in_hand"
+  },
+  {
+   "key": "x"
+  },
+  {
+   "wait": 0.4
+  },
+  {
+   "assert": "player.primary_hand == 'none' and world.current_offhand() == 'none'",
+   "message": "X empties both hands"
+  },
+  {
+   "screenshot": "02b_empty_hands"
+  },
+  {
+   "key": "e"
+  },
+  {
+   "assert": "world.current_offhand() == 'tinder'",
+   "message": "E from an empty hand picks up the first off-hand slot"
+  },
+  {
+   "key": "2"
+  },
+  {
+   "walk_to": {
+    "hearthboard": true
+   },
+   "stop": 0.85,
+   "timeout": 12
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "wait": 0.4
+  },
+  {
+   "aim_at": {
+    "hearthboard": true
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "key": "4"
+  },
+  {
+   "key": "4"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "world.friction_mode == 'hand'",
+   "message": "pressing 4 again swaps the bow for the hand drill"
+  },
+  {
+   "aim_at": {
+    "hearthboard": true
+   }
+  },
+  {
+   "mouse_down": "left"
+  },
+  {
+   "mouse_down": "right"
+  },
+  {
+   "saw": {
+    "duration": 9,
+    "amplitude": 170,
+    "rate": 1.8
+   }
+  },
+  {
+   "assert": "world.crafting.bow_drill.socket_temp > 70",
+   "message": "palm-spun spindle heats the socket",
+   "value": "round(world.crafting.bow_drill.socket_temp)"
+  },
+  {
+   "screenshot": "03_hand_drilling"
+  },
+  {
+   "mouse_up": "left"
+  },
+  {
+   "mouse_up": "right"
+  },
+  {
+   "key": "left ctrl"
+  }
+ ]
+}

@@ -1,0 +1,647 @@
+{
+ "name": "03_forestry_seasoning",
+ "description": "DESIGN 4.x / 5.1: store, felling, limbing & bucking, splitting, drying rack, tarp, 60-day cure, ground rot to punk wood.",
+ "settings": {
+  "width": 1280,
+  "height": 720,
+  "seed": 7,
+  "start_hour": 18.5,
+  "fixed_dt": 0.0333,
+  "preset": "Medium",
+  "render_stride": 40,
+  "no_tutorial": true
+ },
+ "steps": [
+  {
+   "log": "Forestry: buy gear, fell a birch, limb & buck it, split a round, rack the green wood, tarp it, season 60 days, watch a ground log rot"
+  },
+  {
+   "exec": "phone.credits.credits += 600  # staged: credits earned from earlier fires"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "key": "tab"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "assert": "phone.is_open and phone.active_app.value == 'Home'",
+   "message": "phone opens on the home screen"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "phone.active_app.value == 'Store ($)'",
+   "message": "Enter opens the Store"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.inventory.tarps == 1",
+   "message": "bought a waterproof tarp"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.inventory.axe == 'steel'",
+   "message": "bought the drop-forged felling axe"
+  },
+  {
+   "expect_sound": "purchase"
+  },
+  {
+   "screenshot": "01_store_purchases"
+  },
+  {
+   "key": "tab"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "teleport": [
+    6.1,
+    -7.3
+   ],
+   "look_at": [
+    7.4,
+    1.0,
+    -8.6
+   ]
+  },
+  {
+   "key": "3"
+  },
+  {
+   "aim_at": {
+    "tree": "nearest",
+    "species": "Birch",
+    "stage": "Mature",
+    "height": 1.0
+   }
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.target is not None and world.target['kind'] == 'tree'",
+   "message": "aiming at a standing birch"
+  },
+  {
+   "exec": "scratch['tree'] = world.target['obj']; scratch['n_items'] = len(world.world_items)"
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.45
+  },
+  {
+   "assert": "scratch['tree'].notch_depth_m > 0 and scratch['tree'].backcut_depth_m > 0",
+   "message": "face notch and back-cut chopped"
+  },
+  {
+   "expect_sound": "chop"
+  },
+  {
+   "wait_until": "scratch['tree'].is_fallen",
+   "timeout": 8,
+   "message": "the birch falls (rigid-body pivot about the hinge)"
+  },
+  {
+   "exec": "scratch['ft'] = next(f for f in world.fallen_trees if f.tree_id == scratch['tree'].id)"
+  },
+  {
+   "assert": "len(world.world_items) == scratch['n_items'] and scratch['ft'].limbs_left > 3 and scratch['ft'].rounds_left > 5",
+   "message": "the whole birch lies on the ground, crown and all, waiting to be limbed and bucked",
+   "value": "(scratch['ft'].rounds_left, scratch['ft'].limbs_left, scratch['ft'].totals())"
+  },
+  {
+   "expect_sound": "tree_fall"
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "02_felled_birch"
+  },
+  {
+   "exec": "scratch['limb'] = min((l for l in scratch['ft'].limbs if not l.removed), key=lambda l: l.s); scratch['la'] = scratch['ft'].point_at(scratch['limb'].s, terrain.height); player.position[0], player.position[2] = (scratch['la'] - scratch['ft'].dir * 1.1 + scratch['ft'].side * 0.5)[[0, 2]]; player.snap_to_ground(); player.look_at(scratch['la'] + scratch['ft'].limb_direction(scratch['limb']) * 0.25)  # staged: walk up the trunk"
+  },
+  {
+   "wait": 2.5
+  },
+  {
+   "assert": "world.target is not None and world.target['kind'] == 'fallen_limb'",
+   "message": "crosshair on a limb of the felled birch",
+   "value": "world.target['kind'] if world.target else None"
+  },
+  {
+   "screenshot": "02b_limbing_prompt"
+  },
+  {
+   "exec": "scratch['n_items'] = len(world.world_items)"
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "assert": "scratch['limb'].removed and any(w.kind in ('kindling_pile', 'tinder_source') for w in world.world_items[scratch['n_items']:])",
+   "message": "the limb comes off as green kindling and a tinder bundle of twigs & bark",
+   "value": "[w.label for w in world.world_items[scratch['n_items']:]]"
+  },
+  {
+   "exec": "scratch['cp'] = scratch['ft'].point_at(0.3, terrain.height); player.position[0], player.position[2] = (scratch['cp'] + scratch['ft'].side * 1.05)[[0, 2]]; player.snap_to_ground(); player.look_at(scratch['cp'])  # staged: walk back to the butt"
+  },
+  {
+   "wait": 4.0
+  },
+  {
+   "assert": "world.target is not None and world.target['kind'] == 'fallen_trunk'",
+   "message": "crosshair on the felled trunk"
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "screenshot": "02c_bucking_kerf"
+  },
+  {
+   "wait": 3.0
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "wait_until": "scratch['ft'].removed[0]",
+   "timeout": 12,
+   "message": "the first round comes free once its kerf is cut through"
+  },
+  {
+   "exec": "scratch['log'] = [w for w in world.world_items if w.kind == 'fuel' and w.fuel and w.fuel.kind == 'log' and 'round' in w.label][-1]"
+  },
+  {
+   "assert": "scratch['log'].fuel.m_core > 0.9",
+   "message": "freshly felled wood is green (core > 90 % moisture)",
+   "value": "round(scratch['log'].fuel.m_core, 2)"
+  },
+  {
+   "exec": "player.look_at(scratch['log'].position)"
+  },
+  {
+   "wait": 2.5
+  },
+  {
+   "assert": "world.target is not None and world.target['obj'] is scratch['log']",
+   "message": "aiming at the freed round"
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.7
+  },
+  {
+   "assert": "scratch['log'] not in world.world_items and sum(1 for w in world.world_items if w.label.startswith('Split')) >= 2",
+   "message": "the round splits into firewood with the axe",
+   "value": "sum(1 for w in world.world_items if w.label.startswith('Split'))"
+  },
+  {
+   "screenshot": "02d_split_round"
+  },
+  {
+   "key": "1"
+  },
+  {
+   "exec": "for _p in sorted((w for w in world.world_items if w.label.startswith('Split')), key=lambda w: np.linalg.norm(w.position - player.position)):\n    player.look_at(_p.position)\n    _t = world.raycast()\n    if _t is not None and _t['obj'] is _p:\n        break  # a split piece in plain view (not hidden behind the trunk)"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.inventory.count('firewood') >= 1 and world.current_offhand() == 'firewood'",
+   "message": "picked up a green split piece"
+  },
+  {
+   "teleport": [
+    3.3,
+    3.3
+   ],
+   "look_at": {
+    "rack": true
+   }
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "aim_at": {
+    "rack": true
+   }
+  },
+  {
+   "key": "8"
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "len(world.drying_rack.logs) == 3",
+   "message": "green firewood stacked on the raised rack"
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "assert": "world.drying_rack.has_tarp and world.inventory.tarps == 0",
+   "message": "tarp stretched over the rack"
+  },
+  {
+   "expect_sound": "tarp"
+  },
+  {
+   "screenshot": "03_tarped_rack"
+  },
+  {
+   "exec": "scratch['rack_m0'] = world.drying_rack.mean_moisture(); scratch['ground0'] = world.ground_logs[0].fuel.moisture"
+  },
+  {
+   "key": "t"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.time_engine.is_menu_open",
+   "message": "T opens the Pass Time menu"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "screenshot": "04_time_menu"
+  },
+  {
+   "assert": "world.time_engine.selected.hours == 1440",
+   "message": "selected the 60-day cure period"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "assert": "world.weather.day_of_season >= 60",
+   "message": "60 days passed",
+   "value": "(world.weather.current_season.value, world.weather.day_of_season)"
+  },
+  {
+   "assert": "world.drying_rack.mean_moisture() < 0.22 and world.drying_rack.mean_moisture() < scratch['rack_m0'] * 0.3",
+   "message": "tarped rack seasoned green wood toward ~12-20 % EMC",
+   "value": "(round(scratch['rack_m0'], 2), round(world.drying_rack.mean_moisture(), 3))"
+  },
+  {
+   "assert": "min(l.m_core for l in world.drying_rack.logs) < 0.2",
+   "message": "the best log cured below 20 % core moisture",
+   "value": "[round(l.m_core, 3) for l in world.drying_rack.logs]"
+  },
+  {
+   "screenshot": "05_after_60_days"
+  },
+  {
+   "key": "t"
+  },
+  {
+   "key": "s"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "assert": "world.weather.current_season.value == 'Autumn'",
+   "message": "a further 90 days turned the season to autumn"
+  },
+  {
+   "assert": "any(w.fuel.species.value == 'Punk Wood' for w in world.ground_logs if w.fuel)",
+   "message": "the green oak left on the soil rotted into punk wood",
+   "value": "[(w.label, round(w.fuel.moisture, 2)) for w in world.ground_logs if w.fuel][:3]"
+  },
+  {
+   "set_time": {
+    "hour": 13.5
+   }
+  },
+  {
+   "teleport": [
+    -1.0,
+    6.0
+   ],
+   "look_at": [
+    -4.0,
+    0.3,
+    2.2
+   ]
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "screenshot": "06_autumn_camp"
+  },
+  {
+   "aim_at": {
+    "rack": true
+   }
+  },
+  {
+   "teleport": [
+    3.3,
+    3.3
+   ],
+   "look_at": {
+    "rack": true
+   }
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "aim_at": {
+    "rack": true
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "any(world.inventory.peek(k) is not None and world.inventory.peek(k).moisture < 0.25 for k in ('log', 'firewood'))",
+   "message": "took a seasoned piece off the rack",
+   "value": "[round(world.inventory.peek(k).moisture, 3) for k in ('log', 'firewood') if world.inventory.peek(k)]"
+  }
+ ]
+}

@@ -1,0 +1,659 @@
+{
+ "name": "06_fire_science",
+ "description": "DESIGN 2.x physics: moisture, choked layouts, green wood, structure draft, accelerant danger.",
+ "settings": {
+  "width": 1280,
+  "height": 720,
+  "seed": 7,
+  "start_hour": 20.6,
+  "fixed_dt": 0.0333,
+  "preset": "Medium",
+  "render_stride": 40,
+  "no_tutorial": true
+ },
+ "steps": [
+  {
+   "log": "Fire science: damp tinder, choked layout, green log, log cabin via blueprint snapping, gasoline flash-over"
+  },
+  {
+   "exec": "from firestarter.simulation.inventory import make_tinder; inv.add_fuel(make_tinder('dry_grass', 0.45)) # staged: a soaked bundle"
+  },
+  {
+   "teleport": [
+    0.0,
+    1.1
+   ],
+   "look_at": {
+    "pit": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "key": "6"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "key": "1"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0,
+     0.03,
+     0
+    ]
+   }
+  },
+  {
+   "mouse_down": "left"
+  },
+  {
+   "wait": 6.0
+  },
+  {
+   "mouse_up": "left"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "assert": "grid.flame_hrr < 50",
+   "message": "damp tinder (45 % MC) only steams under a lighter - no flame",
+   "value": "round(grid.flame_hrr)"
+  },
+  {
+   "assert": "grid.total_water_evaporated_kg > 0 or any(b.m_surface < 0.45 for b in grid.bodies)",
+   "message": "the lighter boiled some water out of the damp bundle"
+  },
+  {
+   "exec": "grid.clear()"
+  },
+  {
+   "exec": "from firestarter.automation.staging import build_teepee, light; build_teepee(world, 6, 4); light(world)"
+  },
+  {
+   "fast_forward": 40
+  },
+  {
+   "exec": "scratch['open_hrr'] = grid.current_heat_flux; scratch['open_o2'] = grid.oxygen_fraction"
+  },
+  {
+   "exec": "grid.clear()"
+  },
+  {
+   "exec": "from firestarter.automation.staging import build_choked; build_choked(world); light(world)"
+  },
+  {
+   "teleport": [
+    0.3,
+    1.6
+   ],
+   "look_at": [
+    0.0,
+    0.1,
+    0.0
+   ]
+  },
+  {
+   "wait": 4.0
+  },
+  {
+   "assert": "grid.oxygen_fraction < 0.16",
+   "message": "the sealed pack starves the tinder of oxygen",
+   "value": "round(grid.oxygen_fraction, 3)"
+  },
+  {
+   "screenshot": "01_choked_smouldering"
+  },
+  {
+   "fast_forward": 36
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "assert": "grid.analysis.choke_fraction > 0.6",
+   "message": "edge-to-edge logs (< 2 cm gaps) detected as a choked layout",
+   "value": "round(grid.analysis.choke_fraction, 2)"
+  },
+  {
+   "assert": "grid.c_d < 0.2",
+   "message": "discharge coefficient collapses (C_d -> 0)",
+   "value": "round(grid.c_d, 3)"
+  },
+  {
+   "assert": "grid.current_heat_flux < 0.5 * scratch['open_hrr']",
+   "message": "the choked pack releases far less heat than an open teepee of the same fuel",
+   "value": "(round(scratch['open_hrr']), round(grid.current_heat_flux))"
+  },
+  {
+   "assert": "world.structure_key == 'freeform'",
+   "message": "a sealed pack is not mistaken for a Lean-To or Swedish Torch",
+   "value": "(world.structure_key, round(world.structure_score, 2))"
+  },
+  {
+   "exec": "grid.clear()"
+  },
+  {
+   "exec": "from firestarter.automation.staging import build_log_fire; build_log_fire(world, oak_logs=0)"
+  },
+  {
+   "fast_forward": 60
+  },
+  {
+   "exec": "from firestarter.automation.staging import add_green_log; scratch['green'] = add_green_log(world)"
+  },
+  {
+   "teleport": [
+    1.6,
+    1.9
+   ],
+   "look_at": [
+    0.0,
+    0.3,
+    0.0
+   ]
+  },
+  {
+   "fast_forward": 45
+  },
+  {
+   "wait": 1.0
+  },
+  {
+   "assert": "scratch['green'].steam_rate > 2e-4 and not scratch['green'].is_flaming",
+   "message": "a green log on the fire hisses steam but will not flame",
+   "value": "(round(scratch['green'].steam_rate * 1000, 3), scratch['green'].stage.value)"
+  },
+  {
+   "screenshot": "02_green_log_steaming"
+  },
+  {
+   "exec": "grid.clear()"
+  },
+  {
+   "key": "b"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "d"
+  },
+  {
+   "key": "return"
+  },
+  {
+   "key": "b"
+  },
+  {
+   "assert": "book.selected_blueprint_key == 'log_cabin'",
+   "message": "pinned the Log Cabin blueprint"
+  },
+  {
+   "exec": "from firestarter.automation.staging import stock_for_log_cabin; stock_for_log_cabin(world)  # staged: an armful of fuel"
+  },
+  {
+   "teleport": [
+    0.0,
+    1.15
+   ],
+   "look_at": {
+    "pit": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "key": "6"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.05,
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.05,
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.05,
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.05,
+     0,
+     0.0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0,
+     0.15
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0,
+     0.15
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0,
+     0.15
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0,
+     0.15
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0,
+     0.15
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0,
+     0.15
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0,
+     0.15
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0,
+     0.15
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0.2,
+     0.0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0.2,
+     0.0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0.2,
+     0.0
+    ]
+   }
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "wait": 0.6
+  },
+  {
+   "assert": "world.structure_key == 'log_cabin'",
+   "message": "the pieces snapped into a recognised Log Cabin",
+   "value": "(world.structure_key, round(world.structure_score, 2))"
+  },
+  {
+   "teleport": [
+    1.3,
+    1.5
+   ],
+   "look_at": [
+    0.0,
+    0.15,
+    0.0
+   ]
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "screenshot": "03_log_cabin_built"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "key": "1"
+  },
+  {
+   "teleport": [
+    0.0,
+    0.95
+   ],
+   "look_at": {
+    "pit": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0,
+     0.03,
+     0
+    ]
+   }
+  },
+  {
+   "mouse_down": "left"
+  },
+  {
+   "wait": 2.5
+  },
+  {
+   "mouse_up": "left"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "wait_until": "grid.flame_hrr > 800",
+   "timeout": 10,
+   "message": "the log cabin lights"
+  },
+  {
+   "fast_forward": 90
+  },
+  {
+   "assert": "grid.c_d > 0.6 and grid.draft_velocity > 1.0",
+   "message": "an open cabin draws a strong draft",
+   "value": "(round(grid.c_d, 2), round(grid.draft_velocity, 2))"
+  },
+  {
+   "assert": "sum(1 for b in grid.bodies if b.geometry_type == 'firewood' and b.is_flaming) >= 3",
+   "message": "the roofed cabin walls catch from the kindling",
+   "value": "sum(1 for b in grid.bodies if b.geometry_type == 'firewood' and b.is_flaming)"
+  },
+  {
+   "teleport": [
+    1.6,
+    1.8
+   ],
+   "look_at": [
+    0.0,
+    0.35,
+    0.0
+   ]
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "screenshot": "04_log_cabin_burning"
+  },
+  {
+   "exec": "inv.gasoline_kg = 2.8  # staged: a can from the store"
+  },
+  {
+   "key": "5"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0,
+     0.1,
+     0
+    ]
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.35
+  },
+  {
+   "assert": "world.gas_flash_timer > 0 and 'WHOOMPH' in world.notification",
+   "message": "gasoline poured on a lit fire flashes into a fireball",
+   "value": "world.notification[:40]"
+  },
+  {
+   "screenshot": "05_gasoline_fireball"
+  },
+  {
+   "expect_sound": "gas_whoosh"
+  }
+ ]
+}

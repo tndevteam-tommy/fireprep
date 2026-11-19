@@ -1,0 +1,131 @@
+# ============================================================================
+# Git & Repository Management
+# ============================================================================
+# Prevent accidentally committed nested git repos or submodules
+**/.git/
+**/.gitmodules
+
+# ============================================================================
+# Byte-compiled / Optimized / DLL Files (Python)
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ============================================================================
+# Virtual Environments
+# (NOTE: bin/, lib/, include/ are deliberately NOT ignored here; ignore the
+#  venv directory itself instead so that real source folders are never hidden)
+# ============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ============================================================================
+# Unit Tests & Coverage
+# ============================================================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# ============================================================================
+# IDEs, Editors & Tooling
+# ============================================================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Vim / Emacs swap and backup files
+*~
+*.swp
+*.swo
+.#*
+\#*#
+
+# ============================================================================
+# Operating System Artifacts
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ============================================================================
+# Game-Specific & Debugging Logs
+# ============================================================================
+*.log
+recordings/
+screenshots/*.png
+captures/
+# ============================================================================
+# Generated at first launch / by the test-suite
+# ============================================================================
+# procedural ASMR audio is synthesised into assets/audio on first launch (~4 s)
+assets/audio/*.wav
+assets/audio/.version
+# procedural foliage atlas cache
+assets/textures/
+# run_tests.sh output (screenshots, HTML report, JUnit XML)
+test_artifacts/

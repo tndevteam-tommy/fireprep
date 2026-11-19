@@ -1,0 +1,556 @@
+{
+ "name": "01_tutorial_walkthrough",
+ "description": "README Early-Game Tutorial, end to end, driven only by keyboard/mouse events.",
+ "settings": {
+  "width": 1280,
+  "height": 720,
+  "seed": 7,
+  "start_hour": 18.5,
+  "fixed_dt": 0.0333,
+  "preset": "High",
+  "render_stride": 12
+ },
+ "steps": [
+  {
+   "log": "Tutorial walkthrough: gather, build a teepee, light it, feed it, claim credits"
+  },
+  {
+   "wait": 0.6
+  },
+  {
+   "screenshot": "00_arrival"
+  },
+  {
+   "assert": "tutorial.index == 0",
+   "message": "tutorial starts at step 1"
+  },
+  {
+   "assert": "world.inventory.count('tinder') == 0 and world.inventory.count('kindling') == 0",
+   "message": "starts with no fuel"
+  },
+  {
+   "walk_to": {
+    "item": "Birch bark curls"
+   },
+   "stop": 1.35,
+   "timeout": 12
+  },
+  {
+   "aim_at": {
+    "item": "Birch bark curls"
+   },
+   "duration": 0.35
+  },
+  {
+   "assert": "world.target is not None and world.target['kind'] == 'tinder_source'",
+   "message": "crosshair targets the birch curls"
+  },
+  {
+   "screenshot": "01_aim_birch_prompt"
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "walk_to": {
+    "item": "Dry pine needles"
+   },
+   "stop": 1.35,
+   "timeout": 12
+  },
+  {
+   "aim_at": {
+    "item": "Dry pine needles"
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.inventory.count('tinder') >= 3",
+   "message": "gathered 3 tinder bundles",
+   "value": "world.inventory.count('tinder')"
+  },
+  {
+   "assert": "tutorial.index >= 1",
+   "message": "tutorial advanced past 'Gather tinder'"
+  },
+  {
+   "expect_sound": "rustle"
+  },
+  {
+   "walk_to": {
+    "item": "Bundle of dead pine twigs"
+   },
+   "stop": 1.3,
+   "timeout": 12
+  },
+  {
+   "aim_at": {
+    "item": "Bundle of dead pine twigs"
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "world.inventory.count('kindling') >= 6",
+   "message": "gathered 6 kindling twigs",
+   "value": "world.inventory.count('kindling')"
+  },
+  {
+   "walk_to": {
+    "pit": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "stop": 1.25,
+   "timeout": 12
+  },
+  {
+   "key": "6"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  },
+  {
+   "wait": 0.1
+  },
+  {
+   "assert": "world.ghost is not None and world.ghost['kind'] == 'tinder'",
+   "message": "placement ghost shown for tinder"
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.2
+  },
+  {
+   "assert": "any(b.geometry_type == 'tinder' for b in grid.bodies)",
+   "message": "tinder nest placed in the pit"
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.128,
+     0.0,
+     0.023
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "wait": 0.05
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.018,
+     0.0,
+     0.129
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "wait": 0.05
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     -0.117,
+     0.0,
+     0.057
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "wait": 0.05
+  },
+  {
+   "screenshot": "02_placing_kindling_ghost"
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     -0.09,
+     0.0,
+     -0.094
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "wait": 0.05
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "7"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.061,
+     0.0,
+     -0.115
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "wait": 0.05
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "wait": 0.5
+  },
+  {
+   "assert": "sum(1 for b in grid.bodies if b.geometry_type == 'kindling') >= 5",
+   "message": "5 kindling sticks in the pit"
+  },
+  {
+   "assert": "all(b.orientation[0] > 40 for b in grid.bodies if b.geometry_type == 'kindling')",
+   "message": "kindling leans into a teepee (tilt > 40 deg)"
+  },
+  {
+   "assert": "world.structure_key == 'teepee'",
+   "message": "the lay is recognised as a Teepee fire",
+   "value": "(world.structure_key, round(world.structure_score, 2))"
+  },
+  {
+   "assert": "tutorial.index >= 3",
+   "message": "tutorial reached 'Strike the lighter'"
+  },
+  {
+   "screenshot": "03_fire_lay_teepee"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "wait": 0.4
+  },
+  {
+   "key": "1"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0.03,
+     0.0
+    ]
+   }
+  },
+  {
+   "mouse_down": "left"
+  },
+  {
+   "wait": 1.0
+  },
+  {
+   "screenshot": "04_lighter_in_hand"
+  },
+  {
+   "wait": 1.6
+  },
+  {
+   "mouse_up": "left"
+  },
+  {
+   "key": "left ctrl"
+  },
+  {
+   "wait_until": "grid.flame_hrr > 800",
+   "timeout": 8,
+   "message": "tinder bursts into flame"
+  },
+  {
+   "assert": "world.inventory.lighter_starts == 3",
+   "message": "one lighter start consumed",
+   "value": "world.inventory.lighter_starts"
+  },
+  {
+   "expect_sound": "lighter_strike"
+  },
+  {
+   "wait": 3.0
+  },
+  {
+   "screenshot": "05_tinder_flames"
+  },
+  {
+   "wait_until": "sum(1 for b in grid.bodies if b.geometry_type == 'kindling' and b.is_flaming) >= 3",
+   "timeout": 40,
+   "message": "kindling catches from the tinder"
+  },
+  {
+   "wait": 4.0
+  },
+  {
+   "screenshot": "06_kindling_burning"
+  },
+  {
+   "walk_to": {
+    "woodpile": true
+   },
+   "stop": 1.4,
+   "timeout": 12
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "woodpile": true
+   }
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "click": "left"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "assert": "world.inventory.count('firewood') >= 3",
+   "message": "took 3 split firewood"
+  },
+  {
+   "walk_to": {
+    "pit": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "stop": 1.35,
+   "timeout": 12
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.135,
+     0.0,
+     0.161
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     -0.207,
+     0.0,
+     0.036
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "key": "8"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.072,
+     0.0,
+     -0.197
+    ]
+   },
+   "duration": 0.25
+  },
+  {
+   "click": "right"
+  },
+  {
+   "wait": 0.15
+  },
+  {
+   "assert": "sum(1 for b in grid.bodies if b.geometry_type == 'firewood') >= 3",
+   "message": "firewood added to the fire"
+  },
+  {
+   "wait": 6.0
+  },
+  {
+   "screenshot": "07_feeding_firewood"
+  },
+  {
+   "aim_at": {
+    "pit": [
+     0.0,
+     0.05,
+     0.0
+    ]
+   }
+  },
+  {
+   "key": "f",
+   "hold": 0.55
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "assert": "world.last_breath_velocity > 1.5 and world.last_breath_velocity < 4.5",
+   "message": "a 0.55 s breath is a deep, even breath",
+   "value": "world.last_breath_velocity"
+  },
+  {
+   "wait_until": "sum(1 for b in grid.bodies if b.geometry_type == 'firewood' and (b.is_flaming or b.t_surface > 350)) >= 1",
+   "timeout": 90,
+   "message": "split firewood catches"
+  },
+  {
+   "screenshot": "08_firewood_caught"
+  },
+  {
+   "fast_forward": 120
+  },
+  {
+   "wait": 1.0
+  },
+  {
+   "assert": "grid.is_burning and grid.core_coal_temp > 400",
+   "message": "a hot fire with glowing coals after 2 more minutes",
+   "value": "(grid.fire_stage(), round(grid.core_coal_temp))"
+  },
+  {
+   "assert": "phone.credits.pending > 5",
+   "message": "fire-mastery credits accrued",
+   "value": "round(phone.credits.pending, 1)"
+  },
+  {
+   "screenshot": "09_coals_forming"
+  },
+  {
+   "key": "tab"
+  },
+  {
+   "wait": 0.6
+  },
+  {
+   "assert": "phone.is_open and phone.last_claimed > 5 and phone.credits.credits > 25",
+   "message": "opening the phone banks the credits",
+   "value": "(round(phone.last_claimed, 1), round(phone.credits.credits, 1))"
+  },
+  {
+   "assert": "tutorial.current is None",
+   "message": "tutorial completed"
+  },
+  {
+   "screenshot": "10_phone_claimed"
+  },
+  {
+   "key": "tab"
+  },
+  {
+   "wait": 0.3
+  },
+  {
+   "assert": "not phone.is_open",
+   "message": "Tab closes the phone"
+  }
+ ]
+}
